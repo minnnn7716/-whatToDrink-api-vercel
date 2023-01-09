@@ -5,7 +5,7 @@
       "password": "$2a$10$k1JsjY4bSoe3ttcO9gBtc.lQspsvHvYUj0Ha/14FjUmbHi2VPc9Gq",
       "name": "m_m",
       "photoUrl": "https://picsum.photos/253/200",
-      "favorite": [
+      "favorites": [
         "2",
         "3"
       ],
@@ -16,7 +16,7 @@
         "loginTime": "2022-12-11",
         "list": [1]
       },
-      "wheelList":[
+      "wheels":[
         {
           "listName": "清爽系列",
           "type": "特調",
