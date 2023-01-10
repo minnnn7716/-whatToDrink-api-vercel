@@ -52,7 +52,7 @@
       "password": "$2a$10$Hnl0HbggDJtiyCe8PEF95OzbDbTOz.IGuOh4bd9yQIk3SAS/3P3LO",
       "name": "lulu",
       "photoUrl": "https://picsum.photos/288/200",
-      "favorite": [],
+      "favorites": [],
       "comments": [],
       "id": 2
     },
@@ -61,7 +61,7 @@
       "password": "$2a$10$70iDNaktiNw807vvFV2eke2TGIOcjhwA8I5APxkGd9n8qzgW.B88C",
       "name": "kfg",
       "photoUrl": "https://picsum.photos/15/200",
-      "favorite": [],
+      "favorites": [],
       "comments": [
         1,
         1,
@@ -83,7 +83,7 @@
       "password": "$2a$10$W0QIpgZo1PTPAsq0bKwD0OrBhvcpCWXJDsbpXidF2mIsALDj9KX.q",
       "name": "Ruby",
       "photoUrl": "https://picsum.photos/289/200",
-      "favorite": [],
+      "favorites": [],
       "comments": [
         3
       ],
@@ -94,7 +94,7 @@
       "password": "$2a$10$5zkl0hE638ixV91hqguOqujogwZzDDzUVAIMUZvAfzpIBrPsdFA2y",
       "name": "Quuie",
       "photoUrl": "https://picsum.photos/13/200",
-      "favorite": [],
+      "favorites": [],
       "comments": [
         4
       ],
@@ -105,7 +105,7 @@
       "password": "$2a$10$RN2haqwuxt7plv.JcSV4I.dw2MH4S7pnq/H8h4N.oPAr4i.hhJ496",
       "name": "94 愛喝飲料",
       "photoUrl": "https://picsum.photos/387/200",
-      "favorite": [],
+      "favorites": [],
       "comments": [
         5
       ],
@@ -116,7 +116,7 @@
       "password": "$2a$10$i//Nn5PfgolcFShnSbSHGupz1EQg8KtkVLytKFHqjng4mGR4r28se",
       "name": "米金",
       "photoUrl": "https://picsum.photos/365/200",
-      "favorite": [],
+      "favorites": [],
       "comments": [
         6
       ],
@@ -127,7 +127,7 @@
       "password": "$2a$10$L1gT3vYUZlkIwpR40AcSa.uru4BGBiUql/Et56V/8aRoiujpToid.",
       "name": "椰果最讚！",
       "photoUrl": "https://picsum.photos/170/200",
-      "favorite": [],
+      "favorites": [],
       "comments": [
         7
       ],
@@ -138,7 +138,7 @@
       "password": "$2a$10$359KvFThQtY/xTpioJsNdOfeERkyx6G5QkFhFECrOdBq7mP7KPeWi",
       "name": "W.",
       "photoUrl": "https://picsum.photos/42/200",
-      "favorite": [],
+      "favorites": [],
       "comments": [
         8
       ],
@@ -149,7 +149,7 @@
       "password": "$2a$10$Etd8BMotD3uf5OAgVqbeZ.4ZlcPCPCze8RzOQrY3evuV8ah2b2Kpq",
       "name": "Ku",
       "photoUrl": "https://picsum.photos/126/200",
-      "favorite": [],
+      "favorites": [],
       "comments": [
         9
       ],
@@ -160,7 +160,7 @@
       "password": "$2a$10$dmczsSg6ofhI786bIqOqkOznp19KDqTRBNdHPoTR6wbdMRF6uaIWa",
       "name": "Ryan",
       "photoUrl": "https://picsum.photos/221/200",
-      "favorite": [],
+      "favorites": [],
       "comments": [
         10
       ],
@@ -171,7 +171,7 @@
       "password": "$2a$10$Csg5eY.LoCPC0FYBSEpj9uVu9.te2yj/JeTzCacjno6msEk.1Rg7W",
       "name": "Adan",
       "photoUrl": "https://picsum.photos/151/200",
-      "favorite": [
+      "favorites": [
         "1"
       ],
       "comments": [
@@ -184,7 +184,7 @@
       "password": "$2a$10$99QlOP22xGf/LvYhu8oQveikQ2WVCDfOvqzXnpp9OZokFaomidG1e",
       "name": "Drink",
       "photoUrl": "https://picsum.photos/205/200",
-      "favorite": [
+      "favorites": [
         "4",
         "7",
         "19",
@@ -199,7 +199,7 @@
       "password": "$2a$10$SHILr.aMPttTuYWGAAJNW.A0eQoWRJB9lwNf0/ssf94tQ1GXX.dAy",
       "name": "Drink",
       "photoUrl": "https://picsum.photos/342/200",
-      "favorite": [
+      "favorites": [
         "1",
         "17",
         "8",
