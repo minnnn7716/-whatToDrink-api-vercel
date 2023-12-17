@@ -1,582 +1,115 @@
 {
-  "users": [
-    {
-      "email": "mm456@gmail.com",
-      "password": "$2a$10$k1JsjY4bSoe3ttcO9gBtc.lQspsvHvYUj0Ha/14FjUmbHi2VPc9Gq",
-      "name": "m_m",
-      "photoUrl": "https://picsum.photos/253/200",
-      "favorites": [
-        "2",
-        "3",
-        "25"
-      ],
-      "comments": [
-        2
-      ],
-      "likeComments": [],
-      "messages": {
-        "loginTime": "2022-12-11",
-        "list": [1]
-      },
-      "wheels":[
-        {
-          "listName": "清爽系列",
-          "type": "特調",
-          "ingredient": {
-          "base": ["紅茶"],
-          "mix": ["葡萄柚汁", "柳橙汁"],
-          "material": []
-          }
-        },
-        {
-          "listName": "就是要喝奶茶",
-          "type": "奶系列",
-          "ingredient": {
-          "base": ["紅茶"],
-          "mix": [],
-          "material": ["珍珠", "粉粿", "芋圓"]
-          }
-        },
-        {
-          "listName": "文青喝純茶",
-          "type": "純茶",
-          "ingredient": {
-          "base": ["紅茶", "烏龍茶", "青茶"],
-          "mix": [],
-          "material": []
-          }
-        }
-      ],
-      "id": 1
-    },
-    {
-      "email": "hello3398@gmail.com",
-      "password": "$2a$10$Hnl0HbggDJtiyCe8PEF95OzbDbTOz.IGuOh4bd9yQIk3SAS/3P3LO",
-      "name": "lulu",
-      "photoUrl": "https://picsum.photos/288/200",
-      "favorites": [],
-      "comments": [],
-      "id": 2
-    },
-    {
-      "email": "kfg168@gmail.com",
-      "password": "$2a$10$70iDNaktiNw807vvFV2eke2TGIOcjhwA8I5APxkGd9n8qzgW.B88C",
-      "name": "kfg",
-      "photoUrl": "https://picsum.photos/15/200",
-      "favorites": [],
-      "comments": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "id": 3
-    },
-    {
-      "email": "meqw1515@gmail.com",
-      "password": "$2a$10$W0QIpgZo1PTPAsq0bKwD0OrBhvcpCWXJDsbpXidF2mIsALDj9KX.q",
-      "name": "Ruby",
-      "photoUrl": "https://picsum.photos/289/200",
-      "favorites": [],
-      "comments": [
-        3
-      ],
-      "id": 4
-    },
-    {
-      "email": "meqw15@gmail.com",
-      "password": "$2a$10$5zkl0hE638ixV91hqguOqujogwZzDDzUVAIMUZvAfzpIBrPsdFA2y",
-      "name": "Quuie",
-      "photoUrl": "https://picsum.photos/13/200",
-      "favorites": [],
-      "comments": [
-        4
-      ],
-      "id": 5
-    },
-    {
-      "email": "meqw12@gmail.com",
-      "password": "$2a$10$RN2haqwuxt7plv.JcSV4I.dw2MH4S7pnq/H8h4N.oPAr4i.hhJ496",
-      "name": "94 愛喝飲料",
-      "photoUrl": "https://picsum.photos/387/200",
-      "favorites": [],
-      "comments": [
-        5
-      ],
-      "id": 6
-    },
-    {
-      "email": "meqw1115@gmail.com",
-      "password": "$2a$10$i//Nn5PfgolcFShnSbSHGupz1EQg8KtkVLytKFHqjng4mGR4r28se",
-      "name": "米金",
-      "photoUrl": "https://picsum.photos/365/200",
-      "favorites": [],
-      "comments": [
-        6
-      ],
-      "id": 7
-    },
-    {
-      "email": "meqw11@gmail.com",
-      "password": "$2a$10$L1gT3vYUZlkIwpR40AcSa.uru4BGBiUql/Et56V/8aRoiujpToid.",
-      "name": "椰果最讚！",
-      "photoUrl": "https://picsum.photos/170/200",
-      "favorites": [],
-      "comments": [
-        7
-      ],
-      "id": 8
-    },
-    {
-      "email": "aaa156@gmail.com",
-      "password": "$2a$10$359KvFThQtY/xTpioJsNdOfeERkyx6G5QkFhFECrOdBq7mP7KPeWi",
-      "name": "W.",
-      "photoUrl": "https://picsum.photos/42/200",
-      "favorites": [],
-      "comments": [
-        8
-      ],
-      "id": 9
-    },
-    {
-      "email": "kfg1648@gmail.com",
-      "password": "$2a$10$Etd8BMotD3uf5OAgVqbeZ.4ZlcPCPCze8RzOQrY3evuV8ah2b2Kpq",
-      "name": "Ku",
-      "photoUrl": "https://picsum.photos/126/200",
-      "favorites": [],
-      "comments": [
-        9
-      ],
-      "id": 10
-    },
-    {
-      "email": "kfg16441548@gmail.com",
-      "password": "$2a$10$dmczsSg6ofhI786bIqOqkOznp19KDqTRBNdHPoTR6wbdMRF6uaIWa",
-      "name": "Ryan",
-      "photoUrl": "https://picsum.photos/221/200",
-      "favorites": [],
-      "comments": [
-        10
-      ],
-      "id": 11
-    },
-    {
-      "email": "kfg164448@gmail.com",
-      "password": "$2a$10$Csg5eY.LoCPC0FYBSEpj9uVu9.te2yj/JeTzCacjno6msEk.1Rg7W",
-      "name": "Adan",
-      "photoUrl": "https://picsum.photos/151/200",
-      "favorites": [
-        "1"
-      ],
-      "comments": [
-        11
-      ],
-      "id": 12
-    },
-    {
-      "email": "drink@gmail.com",
-      "password": "$2a$10$99QlOP22xGf/LvYhu8oQveikQ2WVCDfOvqzXnpp9OZokFaomidG1e",
-      "name": "Drink",
-      "photoUrl": "https://picsum.photos/205/200",
-      "favorites": [
-        "4",
-        "7",
-        "19",
-        "14",
-        "5"
-      ],
-      "comments": [],
-      "id": 13
-    },
-    {
-      "email": "drink123@gmail.com",
-      "password": "$2a$10$SHILr.aMPttTuYWGAAJNW.A0eQoWRJB9lwNf0/ssf94tQ1GXX.dAy",
-      "name": "Drink",
-      "photoUrl": "https://picsum.photos/342/200",
-      "favorites": [
-        "1",
-        "17",
-        "8",
-        "22"
-      ],
-      "comments": [
-        12,
-        13
-      ],
-      "id": 14
-    }
-  ],
-  "comments": [
-    {
-      "userId": "3",
-      "rate": "5",
-      "sugar": "1 分糖",
-      "ice": "常溫",
-      "content": "好喝～不會太苦澀，也可得到茶香！",
-      "drinkId": "1",
-      "id": 1,
-      "like": [],
-      "createTime": "2023/1/12"
-    },
-    {
-      "userId": "3",
-      "rate": "3",
-      "sugar": "3 分糖",
-      "ice": "常溫",
-      "content": "好喝～不會太苦澀，也可得到茶香！",
-      "drinkId": "4",
-      "id": 2,
-      "like": [],
-      "createTime": "2023/1/11"
-      
-    },
-    {
-      "userId": "3",
-      "rate": "5",
-      "sugar": "2 分糖",
-      "ice": "常溫",
-      "content": "好喝～不會太苦澀，也可得到茶香！",
-      "drinkId": "7",
-      "id": 3,
-      "like": [],
-      "createTime": "2023/1/10"
-    },
-    {
-      "userId": "3",
-      "rate": "4",
-      "sugar": "無糖",
-      "ice": "去冰",
-      "content": "好喝～不會太苦澀，也可得到茶香！",
-      "drinkId": "10",
-      "id": 4,
-      "like": [2],
-      "createTime": "2023/1/10"
-      
-    },
-    {
-      "userId": "3",
-      "rate": "1",
-      "sugar": "1 分糖",
-      "ice": "去冰",
-      "content": "好喝～不會太苦澀，也可得到茶香！",
-      "drinkId": "13",
-      "id": 5,
-      "like": [2],
-      "createTime": "2023/1/9"
-    },
-    {
-      "userId": "3",
-      "rate": "3",
-      "sugar": "1 分糖",
-      "ice": "熱",
-      "content": "好喝～不會太苦澀，也可得到茶香！",
-      "drinkId": "16",
-      "id": 6,
-      "like": [2,3],
-      "createTime": "2023/1/8"
-    },
-    {
-      "userId": "3",
-      "rate": "5",
-      "sugar": "3 分糖",
-      "ice": "半冰",
-      "content": "好喝～不會太苦澀，也可得到茶香！",
-      "drinkId": "17",
-      "id": 7,
-      "like": [4,5],
-      "createTime": "2023/1/12"
-    },
-    {
-      "userId": "3",
-      "rate": "4",
-      "sugar": "4 分糖",
-      "ice": "微冰",
-      "content": "好喝～不苦澀！",
-      "drinkId": "18",
-      "id": 8,
-      "like": [6],
-      "createTime": "2022/10/12"
-    },
-    {
-      "userId": "3",
-      "rate": "4",
-      "sugar": "4 分糖",
-      "ice": "少冰",
-      "content": "好喝～不苦澀！",
-      "drinkId": "19",
-      "id": 9,
-      "like": [6],
-      "createTime": "2022/1/12"
-    },
-    {
-      "userId": "3",
-      "rate": "1",
-      "sugar": "2 分糖",
-      "ice": "去冰",
-      "content": "不合胃口",
-      "drinkId": "20",
-      "id": 10,
-      "like": [5,6,7],
-      "createTime": "2023/1/5"
-    },
-    {
-      "userId": "1",
-      "rate": "3",
-      "sugar": "無糖",
-      "ice": "熱",
-      "content": "喝起來香但有點澀",
-      "drinkId": "1",
-      "id": 11,
-      "like": [5,6,7],
-      "createTime": "2023/1/7"
-    },
-    {
-      "userId": "4",
-      "rate": "3",
-      "sugar": "3 分糖",
-      "ice": "半冰",
-      "content": "上次點熱的好喝，這次點半冰覺得味道好淡QQ<br>\n下次再喝熱的試試看～",
-      "drinkId": "1",
-      "id": 12,
-      "like": [3],
-      "createTime": "2023/1/12"
-    },
-    {
-      "userId": "5",
-      "rate": "3",
-      "sugar": "4 分糖",
-      "ice": "少冰",
-      "content": "喜歡～但我的最愛還是春芽冷露辣，大推～～～<br>\n來這邊推別的飲料哈哈哈哈",
-      "drinkId": "1",
-      "id": 13,
-      "like": [4],
-      "createTime": "2022/11/12"
-    },
-    {
-      "userId": "6",
-      "rate": "4",
-      "sugar": "3 分糖",
-      "ice": "半冰",
-      "content": "不錯喝內",
-      "drinkId": "1",
-      "id": 14,
-      "like": [5],
-      "createTime": "2023/1/11"
-    },
-    {
-      "userId": "7",
-      "rate": "1",
-      "sugar": "1 分糖",
-      "ice": "常溫",
-      "content": "不愛。<br>\n絕對不再喝了！",
-      "drinkId": "1",
-      "id": 15,
-      "like": [6,1],
-      "createTime": "2023/1/9"
-    },
-    {
-      "userId": "8",
-      "rate": "2",
-      "sugar": "3 分糖",
-      "ice": "去冰",
-      "content": "果然什麼茶都要加個椰果吧！（？",
-      "drinkId": "1",
-      "id": 16,
-      "like": [7,1],
-      "createTime": "2023/1/12"
-    },
-    {
-      "userId": "9",
-      "rate": "4",
-      "sugar": "3 分糖",
-      "ice": "微冰",
-      "content": "～一生摯愛～",
-      "drinkId": "1",
-      "id": 17,
-      "like": [8],
-      "createTime": "2023/1/12"
-    },
-    {
-      "userId": "10",
-      "rate": "5",
-      "sugar": "4 分糖",
-      "ice": "熱",
-      "content": "好喝內～喜歡這個茶香！",
-      "drinkId": "1",
-      "id": 18,
-      "like": [9],
-      "createTime": "2023/1/12"
-    },
-    {
-      "userId": "11",
-      "rate": "5",
-      "sugar": "無糖",
-      "ice": "熱",
-      "content": "冷冷的天，來一杯充滿茶香的紅茶，好讚好喝～",
-      "drinkId": "1",
-      "id": 19,
-      "like": [4],
-      "createTime": "2023/1/12"
-    },
-    {
-      "userId": "12",
-      "rate": "5",
-      "sugar": "1 分糖",
-      "ice": "熱",
-      "content": "滿愛的，不要太甜，才不會蓋過茶味～",
-      "drinkId": "1",
-      "id": 20,
-      "like": [6,7],
-      "createTime": "2023/1/12"
-    },
-    {
-      "userId": "14",
-      "rate": "5",
-      "sugar": "5 分糖",
-      "ice": "半冰",
-      "content": "好喝~熱熱的天喝香香的茶！",
-      "drinkId": "1",
-      "id": 21,
-      "like": [4],
-      "createTime": "2023/1/12"
-    },
-    {
-      "userId": "14",
-      "rate": "1",
-      "sugar": "4 分糖",
-      "ice": "微冰",
-      "content": "不好喝",
-      "drinkId": "1",
-      "id": 22,
-      "like": [4],
-      "createTime": "2023/1/12"
-    }
-  ],
   "shops": [
     {
       "id": 1,
       "name": "可不可熟成紅茶",
+      "code": "kebuke",
+      "bgColor": "#003c4f",
+      "textColor": "light",
       "size": {
         "m": "500ml",
         "l": "700ml"
       },
-      "photoUrl": "https://github.com/minnnn7716/whatToDrink/blob/main/IMAGES/logo_KEBUKE.png?raw=true",
-      "background": "#003C4F",
-      "rateNum": 54
+      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E5%8F%AF%E4%B8%8D%E5%8F%AF.svg"
     },
     {
       "id": 2,
       "name": "五十嵐",
+      "code": "50lan",
+      "bgColor": "#f5e702",
+      "textColor": "gray-900",
       "size": {
         "m": "500ml",
         "l": "700ml"
       },
-      "photoUrl": "https://github.com/minnnn7716/whatToDrink/blob/main/IMAGES/logo_50.png?raw=true",
-      "background": "#F5E702",
-      "rateNum": 1
+      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E4%BA%94%E5%8D%81%E5%B5%90.svg"
     },
     {
       "id": 3,
-      "name": "茶湯會",
+      "name": "一沐日",
+      "code": "aNiceHoliday",
+      "bgColor": "#ffffff",
+      "textColor": "gray-900",
       "size": {
-        "m": "480ml",
-        "l": "660ml"
+        "hot": "600ml",
+        "cold": "660ml"
       },
-      "photoUrl": "https://github.com/minnnn7716/whatToDrink/blob/main/IMAGES/logo_toptea.png?raw=true",
-      "background": "#F2EBE2",
-      "rateNum": 1
+      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E4%B8%80%E6%B2%90%E6%97%A5.svg"
     },
     {
       "id": 4,
-      "name": "約翰紅茶公司",
-      "size": {
-        "m": "450ml",
-        "l": "640ml"
-      },
-      "photoUrl": "https://github.com/minnnn7716/whatToDrink/blob/main/IMAGES/logo_John.png?raw=true",
-      "background": "#183263",
-      "rateNum": 1
-    },
-    {
-      "id": 5,
       "name": "清心福全",
+      "code": "chingshin",
+      "bgColor": "#005743",
+      "textColor": "light",
       "size": {
         "m": "500ml",
         "l": "700ml"
       },
-      "photoUrl": "https://github.com/minnnn7716/whatToDrink/blob/main/IMAGES/logo_chingshin.png?raw=true",
-      "background": "#005743",
-      "rateNum": 1
+      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E6%B8%85%E5%BF%83%E7%A6%8F%E5%85%A8.svg"
     },
     {
-      "id": 999,
-      "name": "甜甜包烘焙坊",
+      "id": 5,
+      "name": "約翰紅茶公司",
+      "code": "johnTeaCompany",
+      "bgColor": "#183263",
+      "textColor": "light",
       "size": {
-        "m": "5000ml",
-        "l": "7000ml"
+        "m": "480ml",
+        "l": "640ml"
       },
-      "photoUrl": "",
-      "background": "#F1C5C5",
-      "rateNum": 0
+      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E7%B4%84%E7%BF%B0%E7%B4%85%E8%8C%B6.svg"
     }
   ],
-  "like": [],
   "drinks": [
     {
       "id": 1,
       "shopId": 1,
       "name": "熟成紅茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_1.jpg",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193753%EF%BC%88%E7%86%9F%E6%88%90%E7%B4%85%E8%8C%B6%EF%BC%89.jpg",
       "price": {
-        "m": "30",
-        "l": "35"
+        "m": "35",
+        "l": "40"
       },
       "special": [],
       "calorie": {
-        "m": "100",
+        "m": "180",
         "l": "200"
       },
-      "caffeine": "含量低於100mg",
-      "menuType": "純茶",
+      "caffeine": "低於 100mg",
+      "menuType": "單品茶",
       "type": "純茶",
       "ingredient": {
-        "base": "紅茶",
+        "base": [
+          "紅茶"
+        ],
         "mix": [],
         "material": []
       },
-      "rate": "3.5"
+      "rate": "0"
     },
     {
       "id": 2,
       "shopId": 1,
-      "name": "雪藏紅茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_15.jpg",
+      "name": "麗春紅茶",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193766%EF%BC%88%E9%BA%97%E6%98%A5%E7%B4%85%E8%8C%B6%EF%BC%89.jpg",
       "price": {
-        "m": "50",
-        "l": "60"
+        "m": "35",
+        "l": "40"
       },
-      "special": [
-        "僅限冷飲"
-      ],
+      "special": [],
       "calorie": {
-        "m": "287",
-        "l": "377"
+        "m": "180",
+        "l": "200"
       },
-      "menuType": "特調",
-      "type": "特調",
+      "caffeine": "低於 100mg",
+      "menuType": "單品茶",
+      "type": "純茶",
       "ingredient": {
-        "base": "紅茶",
-        "mix": [
-          "冰淇淋"
+        "base": [
+          "紅茶"
         ],
+        "mix": [],
         "material": []
       },
       "rate": "0"
@@ -584,35 +117,86 @@
     {
       "id": 3,
       "shopId": 1,
-      "name": "冷露歐蕾",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_20.jpg",
+      "name": "胭脂紅茶",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193760%EF%BC%88%E8%83%AD%E8%84%82%E7%B4%85%E8%8C%B6%EF%BC%89.jpg",
       "price": {
         "m": "45",
-        "l": "55"
+        "l": "50"
       },
-      "special": [
-        "無咖啡因"
-      ],
+      "special": [],
       "calorie": {
-        "m": "221",
-        "l": "307"
+        "m": "180",
+        "l": "200"
       },
-      "menuType": "奶 / 鮮奶茶",
-      "type": "奶系列",
+      "caffeine": "低於 100mg",
+      "menuType": "單品茶",
+      "type": "純茶",
       "ingredient": {
-        "base": "冬瓜茶",
-        "mix": [
-          "鮮奶"
-        ],
+        "base": ["紅茶"],
+        "mix": [],
         "material": []
       },
       "rate": "0"
     },
     {
       "id": 4,
+      "shopId": 1,
+      "name": "雪花冷露",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193770%EF%BC%88%E9%9B%AA%E8%8A%B1%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "price": {
+        "m": "35",
+        "l": "40"
+      },
+      "special": [],
+      "calorie": {
+        "m": "169",
+        "l": "233"
+      },
+      "caffeine": false,
+      "menuType": "單品茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": [
+          "冬瓜茶"
+        ],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0"
+    },
+    {
+      "id": 5,
+      "shopId": 1,
+      "name": "春芽冷露",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "price": {
+        "m": "35",
+        "l": "40"
+      },
+      "special": [],
+      "calorie": {
+        "m": "135",
+        "l": "211"
+      },
+      "caffeine": "低於 100mg",
+      "menuType": "單品茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": [
+          "綠茶"
+        ],
+        "mix": [
+          "冬瓜茶"
+        ],
+        "material": []
+      },
+      "rate": "0"
+    },
+    {
+      "id": 6,
       "shopId": 2,
       "name": "茉莉綠茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/28722339/28722339_27.jpg",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
       "price": {
         "m": "30",
         "l": "35"
@@ -622,114 +206,71 @@
         "m": "120",
         "l": "171"
       },
+      "caffeine": "低於 200mg",
       "menuType": "找好茶",
       "type": "純茶",
       "ingredient": {
-        "base": "綠茶",
+        "base": [
+          "綠茶"
+        ],
         "mix": [],
         "material": []
-      },
-      "rate": "3.0"
-    },
-    {
-      "id": 5,
-      "shopId": 2,
-      "name": "微檸檬紅茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/28722339/28722339_73.jpg",
-      "price": {
-        "m": "35",
-        "l": "45"
-      },
-      "special": [],
-      "calorie": {
-        "m": "125",
-        "l": "179"
-      },
-      "menuType": "找好茶",
-      "type": "特調",
-      "ingredient": {
-        "base": "紅茶",
-        "mix": [
-          "檸檬汁"
-        ],
-        "material": []
-      },
-      "rate": "0"
-    },
-    {
-      "id": 6,
-      "shopId": 2,
-      "name": "椰果奶茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/28722339/28722339_69.jpg",
-      "price": {
-        "m": "40",
-        "l": "55"
-      },
-      "special": [
-        "店家推薦"
-      ],
-      "calorie": {
-        "m": "426",
-        "l": "597"
-      },
-      "menuType": "找奶茶",
-      "type": "料多多",
-      "ingredient": {
-        "base": "紅茶",
-        "mix": [
-          "奶精"
-        ],
-        "material": [
-          "椰果"
-        ]
       },
       "rate": "0"
     },
     {
       "id": 7,
-      "shopId": 3,
-      "name": "功夫紅茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/27817792/27817792_129.jpg",
+      "shopId": 2,
+      "name": "珍珠奶茶",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
       "price": {
-        "m": "35",
-        "l": "35"
-      },
-      "special": [
-        "店家推薦"
-      ],
-      "calorie": {
-        "m": "139",
-        "l": "195"
-      },
-      "menuType": "暢銷排行",
-      "type": "純茶",
-      "ingredient": {
-        "base": "紅茶",
-        "mix": [],
-        "material": []
-      },
-      "rate": "5.0"
-    },
-    {
-      "id": 8,
-      "shopId": 3,
-      "name": "蔗香紅茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/27817792/27817792_1.jpg",
-      "price": {
-        "m": "35",
-        "l": "35"
+        "m": "40",
+        "l": "55"
       },
       "special": [],
       "calorie": {
-        "m": "139",
-        "l": "193"
+        "m": "480",
+        "l": "678"
       },
-      "menuType": "暢銷排行",
-      "type": "特調",
+      "caffeine": "低於 200mg",
+      "menuType": "找奶茶",
+      "type": "料多多",
       "ingredient": {
-        "base": "紅茶",
+        "base": [
+          "紅茶"
+        ],
         "mix": [
-          "甘蔗汁"
+          "奶精"
+        ],
+        "material": [
+          "小珍珠"
+        ]
+      },
+      "rate": "0"
+    },
+    {
+      "id": 8,
+      "shopId": 2,
+      "name": "紅茶拿鐵",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "price": {
+        "m": "50",
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": "235",
+        "l": "334"
+      },
+      "caffeine": "低於 200mg",
+      "menuType": "找拿鐵",
+      "type": "奶系列",
+      "ingredient": {
+        "base": [
+          "紅茶"
+        ],
+        "mix": [
+          "鮮奶"
         ],
         "material": []
       },
@@ -737,24 +278,27 @@
     },
     {
       "id": 9,
-      "shopId": 3,
-      "name": "特級茉莉奶綠",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/27817792/27817792_27.jpg",
+      "shopId": 2,
+      "name": "柚子紅",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
       "price": {
-        "m": "50",
-        "l": "50"
+        "m": "40",
+        "l": "55"
       },
       "special": [],
       "calorie": {
-        "m": "413",
-        "l": "579"
+        "m": "214",
+        "l": "301"
       },
-      "menuType": "清爽綠茶",
-      "type": "奶系列",
+      "caffeine": "低於 200mg",
+      "menuType": "找新鮮",
+      "type": "特調",
       "ingredient": {
-        "base": "綠茶",
+        "base": [
+          "紅茶"
+        ],
         "mix": [
-          "奶精"
+          "柚子醬"
         ],
         "material": []
       },
@@ -762,122 +306,147 @@
     },
     {
       "id": 10,
-      "shopId": 4,
-      "name": "曼非紅茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/50754720/50754720_4.jpg",
+      "shopId": 2,
+      "name": "8 冰茶",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
       "price": {
-        "m": "30",
-        "l": "35"
+        "m": "40",
+        "l": "55"
       },
       "special": [],
       "calorie": {
-        "m": "138",
-        "l": "156"
+        "m": "195",
+        "l": "279"
       },
-      "menuType": "紅茶經典",
+      "caffeine": false,
+      "menuType": "找新鮮",
       "type": "純茶",
       "ingredient": {
-        "base": "紅茶",
-        "mix": [],
+        "base": [
+          "金桔汁",
+          "梅醬"
+        ],
+        "mix": [
+          "金桔",
+          "梅子"
+        ],
         "material": []
       },
-      "rate": "4.0"
+      "rate": "0"
     },
     {
       "id": 11,
-      "shopId": 4,
-      "name": "生乳紅茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/50754720/50754720_14.jpg",
+      "shopId": 3,
+      "name": "竹香翡翠",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
       "price": {
-        "m": "60",
-        "l": "供中杯"
+        "m": false,
+        "l": "40"
       },
-      "special": [],
+      "special": [
+        "店家推薦"
+      ],
       "calorie": {
-        "m": "334",
-        "l": "僅供中杯"
+        "m": false,
+        "l": "177.5"
       },
-      "menuType": "紅茶特調",
-      "type": "特調",
+      "caffeine": "55mg",
+      "menuType": "原味茶",
+      "type": "純茶",
       "ingredient": {
-        "base": "紅茶",
-        "mix": [
-          "鮮奶油"
+        "base": [
+          "綠茶"
         ],
+        "mix": [],
         "material": []
       },
       "rate": "0"
     },
     {
       "id": 12,
-      "shopId": 4,
-      "name": "珍珠那堤",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/50754720/50754720_9.jpg",
+      "shopId": 3,
+      "name": "粉粿桂花檸檬",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
       "price": {
-        "m": "55",
+        "m": false,
         "l": "60"
       },
-      "special": [],
+      "special": [
+        "店家推薦",
+        "僅限冷飲",
+        "固定糖冰"
+      ],
       "calorie": {
-        "m": "323",
-        "l": "388"
+        "m": false,
+        "l": "225.5"
       },
-      "menuType": "紅茶那堤",
-      "type": "奶系列",
+      "caffeine": "微量",
+      "menuType": "滋味茶",
+      "type": "料多多",
       "ingredient": {
-        "base": "紅茶",
+        "base": [
+          "檸檬汁"
+        ],
         "mix": [
-          "鮮奶"
+          "桂花釀"
         ],
         "material": [
-          "珍珠"
+          "粉粿"
         ]
       },
       "rate": "0"
     },
     {
       "id": 13,
-      "shopId": 5,
-      "name": "錫蘭紅茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/80582719/80582719_3.jpg",
+      "shopId": 3,
+      "name": "梅果招牌紅",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
       "price": {
-        "m": "25",
-        "l": "30"
+        "m": false,
+        "l": "55"
       },
       "special": [],
       "calorie": {
-        "m": "139",
-        "l": "211"
+        "m": false,
+        "l": "281"
       },
-      "menuType": "茗茶系列",
-      "type": "純茶",
+      "caffeine": "88mg",
+      "menuType": "風味茶",
+      "type": "特調",
       "ingredient": {
-        "base": "紅茶",
-        "mix": [],
+        "base": [
+          "紅茶"
+        ],
+        "mix": [
+          "梅果醬"
+        ],
         "material": []
       },
-      "rate": "1.0"
+      "rate": "0"
     },
     {
       "id": 14,
-      "shopId": 5,
-      "name": "梅子綠茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/80582719/80582719_33.jpg",
+      "shopId": 3,
+      "name": "招牌紅奶茶",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
       "price": {
-        "m": "25",
-        "l": "30"
+        "m": false,
+        "l": "50"
       },
       "special": [],
       "calorie": {
-        "m": "133",
-        "l": "202"
+        "m": false,
+        "l": "428.3"
       },
-      "menuType": "特調系列",
-      "type": "特調",
+      "caffeine": "88mg",
+      "menuType": "香醇奶茶",
+      "type": "奶系列",
       "ingredient": {
-        "base": "綠茶",
+        "base": [
+          "紅茶"
+        ],
         "mix": [
-          "話梅"
+          "奶精"
         ],
         "material": []
       },
@@ -885,335 +454,852 @@
     },
     {
       "id": 15,
-      "shopId": 5,
-      "name": "粉圓奶茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/80582719/80582719_17.jpg",
+      "shopId": 3,
+      "name": "奶蓋烏龍茶",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
       "price": {
-        "m": "40",
-        "l": "50"
+        "m": false,
+        "l": "65"
       },
-      "special": [],
+      "special": [
+        "僅限冷飲"
+      ],
       "calorie": {
-        "m": "445",
-        "l": "674"
+        "m": false,
+        "l": "324.2"
       },
-      "menuType": "奶茶系列",
+      "caffeine": "66mg",
+      "menuType": "芝士奶蓋",
       "type": "奶系列",
       "ingredient": {
-        "base": "紅茶",
-        "mix": [
-          "奶精"
+        "base": [
+          "烏龍茶"
         ],
+        "mix": [],
         "material": [
-          "粉圓"
+          "奶蓋"
         ]
       },
       "rate": "0"
     },
     {
       "id": 16,
-      "shopId": 1,
-      "name": "麗春紅茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_2.jpg",
-      "price": {
-        "m": "30",
-        "l": "35"
-      },
-      "special": [],
-      "calorie": {
-        "m": "180",
-        "l": "200"
-      },
-      "menuType": "純茶",
-      "type": "純茶",
-      "ingredient": {
-        "base": "紅茶",
-        "mix": [],
-        "material": []
-      },
-      "rate": "3.0"
-    },
-    {
-      "id": 17,
-      "shopId": 1,
-      "name": "太妃紅茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_3.jpg",
-      "price": {
-        "m": "35",
-        "l": "40"
-      },
-      "special": [],
-      "calorie": {
-        "m": "161",
-        "l": "182"
-      },
-      "menuType": "純茶",
-      "type": "純茶",
-      "ingredient": {
-        "base": "紅茶",
-        "mix": [],
-        "material": []
-      },
-      "rate": "5.0"
-    },
-    {
-      "id": 18,
-      "shopId": 1,
-      "name": "胭脂紅茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_13.jpg",
-      "price": {
-        "m": "40",
-        "l": "45"
-      },
-      "special": [],
-      "calorie": {
-        "m": "180",
-        "l": "200"
-      },
-      "menuType": "純茶",
-      "type": "純茶",
-      "ingredient": {
-        "base": "紅茶",
-        "mix": [],
-        "material": []
-      },
-      "rate": "4.0"
-    },
-    {
-      "id": 19,
-      "shopId": 1,
-      "name": "雪花冷露",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_18.jpg",
+      "shopId": 4,
+      "name": "烏龍綠茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301405060000002.jpg",
       "price": {
         "m": "30",
         "l": "35"
       },
       "special": [
-        "無咖啡因"
+        "店家推薦"
       ],
       "calorie": {
-        "m": "176",
-        "l": "247"
+        "m": "149",
+        "l": "226"
       },
-      "menuType": "純茶",
+      "caffeine": "低於 100mg",
+      "menuType": "茗茶系列",
       "type": "純茶",
       "ingredient": {
-        "base": "冬瓜茶",
+        "base": [
+          "烏龍茶",
+          "綠茶"
+        ],
         "mix": [],
         "material": []
       },
-      "rate": "4.0"
+      "rate": "0"
     },
     {
-      "id": 20,
-      "shopId": 1,
-      "name": "春芽綠茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_7.jpg",
+      "id": 17,
+      "shopId": 4,
+      "name": "仙草凍奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301410570000002.jpg",
       "price": {
-        "m": "30",
-        "l": "35"
+        "m": "45",
+        "l": "55"
+      },
+      "special": [
+        "店家推薦"
+      ],
+      "calorie": {
+        "m": "309",
+        "l": "470"
+      },
+      "caffeine": "低於 100mg",
+      "menuType": "奶茶系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": [
+          "紅茶"
+        ],
+        "mix": [
+          "奶精"
+        ],
+        "material": [
+          "仙草凍"
+        ]
+      },
+      "rate": "0"
+    },
+    {
+      "id": 18,
+      "shopId": 4,
+      "name": "情人茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011426020000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
       },
       "special": [],
       "calorie": {
-        "m": "160",
-        "l": "180"
+        "m": "127",
+        "l": "193"
       },
-      "menuType": "純茶",
-      "type": "純茶",
+      "caffeine": "低於 100mg",
+      "menuType": "特調系列",
+      "type": "特調",
       "ingredient": {
-        "base": "綠茶",
+        "base": [
+          "綠茶"
+        ],
+        "mix": [
+          "檸檬",
+          "話梅"
+        ],
+        "material": [
+          "仙草凍"
+        ]
+      },
+      "rate": "0"
+    },
+    {
+      "id": 19,
+      "shopId": 4,
+      "name": "檸檬汁",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011430240000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "60"
+      },
+      "special": [],
+      "calorie": {
+        "m": "135",
+        "l": "205"
+      },
+      "caffeine": false,
+      "menuType": "季節鮮果系列",
+      "type": "特調",
+      "ingredient": {
+        "base": [
+          "檸檬汁"
+        ],
         "mix": [],
         "material": []
       },
-      "rate": "1.0"
+      "rate": "0"
     },
     {
-      "id": 21,
-      "shopId": 1,
-      "name": "春梅冰茶",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_22.jpg",
+      "id": 20,
+      "shopId": 4,
+      "name": "蘋果醋",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
       "price": {
         "m": "40",
         "l": "50"
       },
       "special": [],
       "calorie": {
-        "m": "257",
-        "l": "356"
+        "m": "135",
+        "l": "205"
       },
-      "menuType": "特調",
+      "caffeine": false,
+      "menuType": "果醋系列",
       "type": "特調",
       "ingredient": {
-        "base": "冬瓜茶",
-        "mix": [
-          "梅子汁"
+        "base": [
+          "蘋果醋"
         ],
+        "mix": [],
         "material": []
       },
       "rate": "0"
+    },
+    {
+      "id": 21,
+      "shopId": 5,
+      "name": "曼非紅茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "price": {
+        "m": "35",
+        "l": "50"
+      },
+      "special": [
+        "店家推薦"
+      ],
+      "calorie": {
+        "m": "138",
+        "l": "156"
+      },
+      "caffeine": "未提供",
+      "menuType": "紅茶經典",
+      "type": "純茶",
+      "ingredient": {
+        "base": [
+          "紅茶"
+        ],
+        "mix": [],
+        "material": []
+      },
+      "rate": "5.0"
     },
     {
       "id": 22,
-      "shopId": 1,
-      "name": "冷露檸果",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_23.jpg",
+      "shopId": 5,
+      "name": "茶中香檳",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
       "price": {
-        "m": "60",
-        "l": "70"
+        "m": "40",
+        "l": "45"
       },
-      "special": [
-        "僅限冷飲",
-        "無咖啡因"
-      ],
+      "special": [],
       "calorie": {
-        "m": "190",
-        "l": "261"
+        "m": "129",
+        "l": "147"
       },
-      "menuType": "特調",
-      "type": "特調",
+      "caffeine": "未提供",
+      "menuType": "紅茶經典",
+      "type": "純茶",
       "ingredient": {
-        "base": "冬瓜茶",
-        "mix": [
-          "檸檬汁"
+        "base": [
+          "紅茶"
         ],
+        "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "4.0"
     },
     {
       "id": 23,
-      "shopId": 1,
-      "name": "胭脂多多",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_16.jpg",
-      "price": {
-        "m": "45",
-        "l": "55"
-      },
-      "special": [],
-      "calorie": {
-        "m": "320",
-        "l": "407"
-      },
-      "menuType": "特調",
-      "type": "特調",
-      "ingredient": {
-        "base": "胭脂紅茶",
-        "mix": [
-          "養樂多"
-        ],
-        "material": []
-      },
-      "rate": "0"
-    },
-    {
-      "id": 24,
-      "shopId": 1,
-      "name": "春芽冷露",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_19.jpg",
-      "price": {
-        "m": "30",
-        "l": "35"
-      },
-      "special": [],
-      "calorie": {
-        "m": "135",
-        "l": "211"
-      },
-      "menuType": "特調",
-      "type": "特調",
-      "ingredient": {
-        "base": "春芽綠茶",
-        "mix": [
-          "冬瓜茶"
-        ],
-        "material": []
-      },
-      "rate": "0"
-    },
-    {
-      "id": 25,
-      "shopId": 1,
-      "name": "春芽冷露",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_12.jpg",
+      "shopId": 5,
+      "name": "雨果那堤",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
       "price": {
         "m": "55",
-        "l": "僅限中杯"
+        "l": "60"
       },
       "special": [],
       "calorie": {
-        "m": "168",
-        "l": "僅限中杯"
+        "m": "233",
+        "l": "287"
       },
-      "menuType": "特調",
-      "type": "特調",
-      "ingredient": {
-        "base": "熟成紅茶",
-        "mix": [
-          "檸檬汁"
-        ],
-        "material": []
-      },
-      "rate": "0"
-    },
-    {
-      "id": 26,
-      "shopId": 1,
-      "name": "熟成歐蕾",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_10.jpg",
-      "price": {
-        "m": "45",
-        "l": "55"
-      },
-      "special": [],
-      "calorie": {
-        "m": "258",
-        "l": "311"
-      },
-      "menuType": "奶 / 鮮奶茶",
+      "caffeine": "未提供",
+      "menuType": "紅茶那堤",
       "type": "奶系列",
       "ingredient": {
-        "base": "熟成紅茶",
+        "base": [
+          "紅茶"
+        ],
         "mix": [
           "鮮奶"
         ],
+        "material": []
+      },
+      "rate": "2.0"
+    },
+    {
+      "id": 24,
+      "shopId": 5,
+      "name": "生乳紅茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "price": {
+        "m": "55",
+        "l": false
+      },
+      "special": [
+        "僅限冷飲"
+      ],
+      "calorie": {
+        "m": "352",
+        "l": false
+      },
+      "caffeine": "未提供",
+      "menuType": "生乳系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": [
+          "紅茶"
+        ],
+        "mix": [
+          "鮮奶油"
+        ],
+        "material": []
+      },
+      "rate": "3.0"
+    },
+    {
+      "id": 25,
+      "shopId": 5,
+      "name": "玉釀紅茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "price": {
+        "m": "60",
+        "l": false
+      },
+      "special": [
+        "店家推薦",
+        "僅限冷飲"
+      ],
+      "calorie": {
+        "m": "138",
+        "l": false
+      },
+      "caffeine": "未提供",
+      "menuType": "紅茶特調",
+      "type": "特調",
+      "ingredient": {
+        "base": [
+          "紅茶"
+        ],
+        "mix": [
+          "荔枝汁"
+        ],
+        "material": []
+      },
+      "rate": "4.0"
+    },
+    {
+      "id": 26,
+      "shopId": 5,
+      "name": "曼非紅茶1",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "price": {
+        "m": "35",
+        "l": "50"
+      },
+      "special": [
+        "店家推薦"
+      ],
+      "calorie": {
+        "m": "138",
+        "l": "156"
+      },
+      "caffeine": "未提供",
+      "menuType": "紅茶經典",
+      "type": "純茶",
+      "ingredient": {
+        "base": [
+          "紅茶"
+        ],
+        "mix": [],
         "material": []
       },
       "rate": "0"
     },
     {
       "id": 27,
-      "shopId": 1,
-      "name": "白玉歐蕾",
-      "photoUrl": "https://foodtracer.taipei.gov.tw/Backend/upload/product/54231252/54231252_21.jpg",
+      "shopId": 5,
+      "name": "茶中香檳1",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
       "price": {
-        "m": "55",
-        "l": "65"
+        "m": "40",
+        "l": "45"
       },
       "special": [],
       "calorie": {
-        "m": "395",
-        "l": "443"
+        "m": "129",
+        "l": "147"
       },
-      "menuType": "奶 / 鮮奶茶",
+      "caffeine": "未提供",
+      "menuType": "紅茶經典",
+      "type": "純茶",
+      "ingredient": {
+        "base": [
+          "紅茶"
+        ],
+        "mix": [],
+        "material": []
+      },
+      "rate": "5.0"
+    },
+    {
+      "id": 28,
+      "shopId": 5,
+      "name": "雨果那堤1",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "price": {
+        "m": "55",
+        "l": "60"
+      },
+      "special": [],
+      "calorie": {
+        "m": "233",
+        "l": "287"
+      },
+      "caffeine": "未提供",
+      "menuType": "紅茶那堤",
       "type": "奶系列",
       "ingredient": {
-        "base": "熟成紅茶",
+        "base": [
+          "紅茶"
+        ],
         "mix": [
           "鮮奶"
         ],
-        "material": [
-          "白玉"
-        ]
+        "material": []
+      },
+      "rate": "5.0"
+    },
+    {
+      "id": 29,
+      "shopId": 5,
+      "name": "生乳紅茶1",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "price": {
+        "m": "55",
+        "l": false
+      },
+      "special": [
+        "僅限冷飲"
+      ],
+      "calorie": {
+        "m": "352",
+        "l": false
+      },
+      "caffeine": "未提供",
+      "menuType": "生乳系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": [
+          "紅茶"
+        ],
+        "mix": [
+          "鮮奶油"
+        ],
+        "material": []
+      },
+      "rate": "3.0"
+    },
+    {
+      "id": 30,
+      "shopId": 5,
+      "name": "玉釀紅茶1",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "price": {
+        "m": "60",
+        "l": false
+      },
+      "special": [
+        "店家推薦",
+        "僅限冷飲",
+        "無咖啡因",
+        "僅限熱飲"
+      ],
+      "calorie": {
+        "m": "138",
+        "l": false
+      },
+      "caffeine": "未提供",
+      "menuType": "紅茶特調",
+      "type": "特調",
+      "ingredient": {
+        "base": [
+          "紅茶"
+        ],
+        "mix": [
+          "荔枝汁"
+        ],
+        "material": []
       },
       "rate": "0"
     }
   ],
-  "messages": [
+  "comments": [
     {
       "id": 1,
-      "title": "喜歡五十嵐的朋友們！暖冬新品上市！",
-      "content": "冷冷的冬季絕對不能錯過，一邊喝飲料一邊溫補，跟媽媽說你也是有在注意身體健康的！薑汁桂圓紅茶不只暖你的手還暖你的心，打通你的血管，暖流直達你心！現在起至 12/20 給你最甘心的甜蜜，買一送一！走過路過不要放過喲！大杯原價 50 元，中杯原價 40 元，帶著親朋好友爸爸媽媽阿公阿嬤樓上樓下一起來！",
-      "createTime": "2023-01-09"
+      "shopId": 1,
+      "drinkId": 1,
+      "userName": "Jelly",
+      "date": 1702281125402,
+      "rate": "2.0",
+      "sugar": "無糖",
+      "ice": "半冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 2,
+      "shopId": 1,
+      "drinkId": 2,
+      "userName": "Jelly",
+      "date": 1702281125402,
+      "rate": "1.0",
+      "sugar": "半糖",
+      "ice": "熱",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 3,
+      "shopId": 1,
+      "drinkId": 3,
+      "userName": "Kay",
+      "date": 1702281125402,
+      "rate": "5.0",
+      "sugar": "3 分糖",
+      "ice": "微冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 4,
+      "shopId": 1,
+      "drinkId": 4,
+      "userName": "漢堡大俠愛喝飲料",
+      "date": 1702281125402,
+      "rate": "3.0",
+      "sugar": "全糖",
+      "ice": "少冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 5,
+      "shopId": 1,
+      "drinkId": 5,
+      "userName": "玲玲",
+      "date": 1702281125402,
+      "rate": "5.0",
+      "sugar": "半糖",
+      "ice": "微冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 6,
+      "shopId": 2,
+      "drinkId": 6,
+      "userName": "Jelly",
+      "date": 1702281125402,
+      "rate": "2.0",
+      "sugar": "無糖",
+      "ice": "半冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 7,
+      "shopId": 2,
+      "drinkId": 7,
+      "userName": "Jelly",
+      "date": 1702281125402,
+      "rate": "1.0",
+      "sugar": "半糖",
+      "ice": "熱",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 8,
+      "shopId": 2,
+      "drinkId": 8,
+      "userName": "Kay",
+      "date": 1702281125402,
+      "rate": "5.0",
+      "sugar": "3 分糖",
+      "ice": "微冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 9,
+      "shopId": 3,
+      "drinkId": 11,
+      "userName": "漢堡大俠愛喝飲料",
+      "date": 1702281125402,
+      "rate": "3.0",
+      "sugar": "全糖",
+      "ice": "少冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 10,
+      "shopId": 3,
+      "drinkId": 12,
+      "userName": "玲玲",
+      "date": 1702051200000,
+      "rate": "5.0",
+      "sugar": "半糖",
+      "ice": "微冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 11,
+      "shopId": 4,
+      "drinkId": 17,
+      "userName": "漢堡大俠愛喝飲料",
+      "date": 1702281125402,
+      "rate": "3.0",
+      "sugar": "全糖",
+      "ice": "少冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 12,
+      "shopId": 4,
+      "drinkId": 18,
+      "userName": "玲玲",
+      "date": 1702051200000,
+      "rate": "5.0",
+      "sugar": "半糖",
+      "ice": "微冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 13,
+      "shopId": 5,
+      "drinkId": 22,
+      "userName": "漢堡大俠愛喝飲料",
+      "date": 1702281125402,
+      "rate": "3.0",
+      "sugar": "全糖",
+      "ice": "少冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 14,
+      "shopId": 5,
+      "drinkId": 23,
+      "userName": "玲玲",
+      "date": 1702137600000,
+      "rate": "5.0",
+      "sugar": "半糖",
+      "ice": "微冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 15,
+      "shopId": 5,
+      "drinkId": 28,
+      "userName": "玲玲",
+      "date": 1702281125402,
+      "rate": "5.0",
+      "sugar": "半糖",
+      "ice": "微冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 16,
+      "shopId": 5,
+      "drinkId": 28,
+      "userName": "1",
+      "date": 1702281125402,
+      "rate": "4.0",
+      "sugar": "半糖",
+      "ice": "微冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 17,
+      "shopId": 5,
+      "drinkId": 28,
+      "userName": "2",
+      "date": 1702051200000,
+      "rate": "2.0",
+      "sugar": "無糖",
+      "ice": "少冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 18,
+      "shopId": 5,
+      "drinkId": 28,
+      "userName": "3",
+      "date": 1702137600000,
+      "rate": "4.0",
+      "sugar": "多糖",
+      "ice": "微冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 19,
+      "shopId": 5,
+      "drinkId": 28,
+      "userName": "4",
+      "date": 1702281125402,
+      "rate": "1.0",
+      "sugar": "半糖",
+      "ice": "微冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "id": 20,
+      "shopId": 5,
+      "drinkId": 28,
+      "userName": "5",
+      "date": 1702137600000,
+      "rate": "4.0",
+      "sugar": "半糖",
+      "ice": "微冰",
+      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
+    },
+    {
+      "rate": "1.0",
+      "userName": "1",
+      "sugar": "1 分糖",
+      "ice": "微冰",
+      "content": "1",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702307634936,
+      "id": 21
+    },
+    {
+      "rate": "5.0",
+      "userName": "12312",
+      "sugar": "微糖",
+      "ice": "不記得",
+      "content": "123",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702307997677,
+      "id": 22
+    },
+    {
+      "rate": "3.0",
+      "userName": "123",
+      "sugar": "微糖",
+      "ice": "多冰",
+      "content": "123",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702350333264,
+      "id": 23
+    },
+    {
+      "rate": "3.0",
+      "userName": "123",
+      "sugar": "半糖",
+      "ice": "少冰",
+      "content": "123",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702350399958,
+      "id": 24
+    },
+    {
+      "rate": "3.0",
+      "userName": "213",
+      "sugar": "1 分糖",
+      "ice": "半冰",
+      "content": "123",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702350477037,
+      "id": 25
+    },
+    {
+      "rate": "0",
+      "userName": "",
+      "sugar": "甜度",
+      "ice": "冰塊",
+      "content": "",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702350544736,
+      "id": 26
+    },
+    {
+      "rate": "3.0",
+      "userName": "123",
+      "sugar": "微糖",
+      "ice": "微冰",
+      "content": "123",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702350554587,
+      "id": 27
+    },
+    {
+      "rate": "3.0",
+      "userName": "123",
+      "sugar": "微糖",
+      "ice": "微冰",
+      "content": "123",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702350645148,
+      "id": 28
+    },
+    {
+      "rate": "3.0",
+      "userName": "123",
+      "sugar": "半糖",
+      "ice": "少冰",
+      "content": "123",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702351071642,
+      "id": 29
+    },
+    {
+      "rate": "4.0",
+      "userName": "23",
+      "sugar": "1 分糖",
+      "ice": "半冰",
+      "content": "123",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702351091421,
+      "id": 30
+    },
+    {
+      "rate": "3.0",
+      "userName": "123123",
+      "sugar": "微糖",
+      "ice": "微冰",
+      "content": "12312",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702351100292,
+      "id": 31
+    },
+    {
+      "rate": "4.0",
+      "userName": "123",
+      "sugar": "微糖",
+      "ice": "少冰",
+      "content": "123",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702351546499,
+      "id": 32
+    },
+    {
+      "rate": "2.0",
+      "userName": "123",
+      "sugar": "少糖",
+      "ice": "溫",
+      "content": "123",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702351853140,
+      "id": 33
+    },
+    {
+      "rate": "5.0",
+      "userName": "test",
+      "sugar": "無糖",
+      "ice": "去冰",
+      "content": "test",
+      "shopId": 5,
+      "drinkId": 21,
+      "date": 1702374049178,
+      "id": 34
+    },
+    {
+      "rate": "5.0",
+      "userName": "13312",
+      "sugar": "半糖",
+      "ice": "微冰",
+      "content": "123123",
+      "shopId": 5,
+      "drinkId": 28,
+      "date": 1702374769336,
+      "id": 35
     }
   ]
 }
