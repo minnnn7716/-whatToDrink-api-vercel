@@ -10,7 +10,8 @@
         "m": "500ml",
         "l": "700ml"
       },
-      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E5%8F%AF%E4%B8%8D%E5%8F%AF.svg"
+      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E5%8F%AF%E4%B8%8D%E5%8F%AF.svg",
+      "rate": "0"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
         "m": "500ml",
         "l": "700ml"
       },
-      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E4%BA%94%E5%8D%81%E5%B5%90.svg"
+      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E4%BA%94%E5%8D%81%E5%B5%90.svg",
+      "rate": "0"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
         "hot": "600ml",
         "cold": "660ml"
       },
-      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E4%B8%80%E6%B2%90%E6%97%A5.svg"
+      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E4%B8%80%E6%B2%90%E6%97%A5.svg",
+      "rate": "0"
     },
     {
       "id": 4,
@@ -46,7 +49,8 @@
         "m": "500ml",
         "l": "700ml"
       },
-      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E6%B8%85%E5%BF%83%E7%A6%8F%E5%85%A8.svg"
+      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E6%B8%85%E5%BF%83%E7%A6%8F%E5%85%A8.svg",
+      "rate": "0"
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
         "m": "480ml",
         "l": "640ml"
       },
-      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E7%B4%84%E7%BF%B0%E7%B4%85%E8%8C%B6.svg"
+      "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E7%B4%84%E7%BF%B0%E7%B4%85%E8%8C%B6.svg",
+      "rate": "0"
     }
   ],
   "drinks": [
@@ -652,7 +657,7 @@
         "mix": [],
         "material": []
       },
-      "rate": "5.0"
+      "rate": "0"
     },
     {
       "id": 22,
@@ -678,7 +683,7 @@
         "mix": [],
         "material": []
       },
-      "rate": "4.0"
+      "rate": "0"
     },
     {
       "id": 23,
@@ -706,7 +711,7 @@
         ],
         "material": []
       },
-      "rate": "2.0"
+      "rate": "0"
     },
     {
       "id": 24,
@@ -736,7 +741,7 @@
         ],
         "material": []
       },
-      "rate": "3.0"
+      "rate": "0"
     },
     {
       "id": 25,
@@ -767,7 +772,7 @@
         ],
         "material": []
       },
-      "rate": "4.0"
+      "rate": "0"
     },
     {
       "id": 26,
@@ -821,7 +826,7 @@
         "mix": [],
         "material": []
       },
-      "rate": "5.0"
+      "rate": "0"
     },
     {
       "id": 28,
@@ -849,7 +854,7 @@
         ],
         "material": []
       },
-      "rate": "5.0"
+      "rate": "0"
     },
     {
       "id": 29,
@@ -879,7 +884,7 @@
         ],
         "material": []
       },
-      "rate": "3.0"
+      "rate": "0"
     },
     {
       "id": 30,
@@ -915,391 +920,5 @@
       "rate": "0"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "shopId": 1,
-      "drinkId": 1,
-      "userName": "Jelly",
-      "date": 1702281125402,
-      "rate": "2.0",
-      "sugar": "無糖",
-      "ice": "半冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 2,
-      "shopId": 1,
-      "drinkId": 2,
-      "userName": "Jelly",
-      "date": 1702281125402,
-      "rate": "1.0",
-      "sugar": "半糖",
-      "ice": "熱",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 3,
-      "shopId": 1,
-      "drinkId": 3,
-      "userName": "Kay",
-      "date": 1702281125402,
-      "rate": "5.0",
-      "sugar": "3 分糖",
-      "ice": "微冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 4,
-      "shopId": 1,
-      "drinkId": 4,
-      "userName": "漢堡大俠愛喝飲料",
-      "date": 1702281125402,
-      "rate": "3.0",
-      "sugar": "全糖",
-      "ice": "少冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 5,
-      "shopId": 1,
-      "drinkId": 5,
-      "userName": "玲玲",
-      "date": 1702281125402,
-      "rate": "5.0",
-      "sugar": "半糖",
-      "ice": "微冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 6,
-      "shopId": 2,
-      "drinkId": 6,
-      "userName": "Jelly",
-      "date": 1702281125402,
-      "rate": "2.0",
-      "sugar": "無糖",
-      "ice": "半冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 7,
-      "shopId": 2,
-      "drinkId": 7,
-      "userName": "Jelly",
-      "date": 1702281125402,
-      "rate": "1.0",
-      "sugar": "半糖",
-      "ice": "熱",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 8,
-      "shopId": 2,
-      "drinkId": 8,
-      "userName": "Kay",
-      "date": 1702281125402,
-      "rate": "5.0",
-      "sugar": "3 分糖",
-      "ice": "微冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 9,
-      "shopId": 3,
-      "drinkId": 11,
-      "userName": "漢堡大俠愛喝飲料",
-      "date": 1702281125402,
-      "rate": "3.0",
-      "sugar": "全糖",
-      "ice": "少冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 10,
-      "shopId": 3,
-      "drinkId": 12,
-      "userName": "玲玲",
-      "date": 1702051200000,
-      "rate": "5.0",
-      "sugar": "半糖",
-      "ice": "微冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 11,
-      "shopId": 4,
-      "drinkId": 17,
-      "userName": "漢堡大俠愛喝飲料",
-      "date": 1702281125402,
-      "rate": "3.0",
-      "sugar": "全糖",
-      "ice": "少冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 12,
-      "shopId": 4,
-      "drinkId": 18,
-      "userName": "玲玲",
-      "date": 1702051200000,
-      "rate": "5.0",
-      "sugar": "半糖",
-      "ice": "微冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 13,
-      "shopId": 5,
-      "drinkId": 22,
-      "userName": "漢堡大俠愛喝飲料",
-      "date": 1702281125402,
-      "rate": "3.0",
-      "sugar": "全糖",
-      "ice": "少冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 14,
-      "shopId": 5,
-      "drinkId": 23,
-      "userName": "玲玲",
-      "date": 1702137600000,
-      "rate": "5.0",
-      "sugar": "半糖",
-      "ice": "微冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 15,
-      "shopId": 5,
-      "drinkId": 28,
-      "userName": "玲玲",
-      "date": 1702281125402,
-      "rate": "5.0",
-      "sugar": "半糖",
-      "ice": "微冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 16,
-      "shopId": 5,
-      "drinkId": 28,
-      "userName": "1",
-      "date": 1702281125402,
-      "rate": "4.0",
-      "sugar": "半糖",
-      "ice": "微冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 17,
-      "shopId": 5,
-      "drinkId": 28,
-      "userName": "2",
-      "date": 1702051200000,
-      "rate": "2.0",
-      "sugar": "無糖",
-      "ice": "少冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 18,
-      "shopId": 5,
-      "drinkId": 28,
-      "userName": "3",
-      "date": 1702137600000,
-      "rate": "4.0",
-      "sugar": "多糖",
-      "ice": "微冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 19,
-      "shopId": 5,
-      "drinkId": 28,
-      "userName": "4",
-      "date": 1702281125402,
-      "rate": "1.0",
-      "sugar": "半糖",
-      "ice": "微冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "id": 20,
-      "shopId": 5,
-      "drinkId": 28,
-      "userName": "5",
-      "date": 1702137600000,
-      "rate": "4.0",
-      "sugar": "半糖",
-      "ice": "微冰",
-      "content": "茶與葡萄柚果汁的調配完全恰到好處！<br>根本夏日聖品，清爽解膩，3 分糖去冰剛剛好<br>如果點多冰的話半糖應該滿不錯的～"
-    },
-    {
-      "rate": "1.0",
-      "userName": "1",
-      "sugar": "1 分糖",
-      "ice": "微冰",
-      "content": "1",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702307634936,
-      "id": 21
-    },
-    {
-      "rate": "5.0",
-      "userName": "12312",
-      "sugar": "微糖",
-      "ice": "不記得",
-      "content": "123",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702307997677,
-      "id": 22
-    },
-    {
-      "rate": "3.0",
-      "userName": "123",
-      "sugar": "微糖",
-      "ice": "多冰",
-      "content": "123",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702350333264,
-      "id": 23
-    },
-    {
-      "rate": "3.0",
-      "userName": "123",
-      "sugar": "半糖",
-      "ice": "少冰",
-      "content": "123",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702350399958,
-      "id": 24
-    },
-    {
-      "rate": "3.0",
-      "userName": "213",
-      "sugar": "1 分糖",
-      "ice": "半冰",
-      "content": "123",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702350477037,
-      "id": 25
-    },
-    {
-      "rate": "0",
-      "userName": "",
-      "sugar": "甜度",
-      "ice": "冰塊",
-      "content": "",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702350544736,
-      "id": 26
-    },
-    {
-      "rate": "3.0",
-      "userName": "123",
-      "sugar": "微糖",
-      "ice": "微冰",
-      "content": "123",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702350554587,
-      "id": 27
-    },
-    {
-      "rate": "3.0",
-      "userName": "123",
-      "sugar": "微糖",
-      "ice": "微冰",
-      "content": "123",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702350645148,
-      "id": 28
-    },
-    {
-      "rate": "3.0",
-      "userName": "123",
-      "sugar": "半糖",
-      "ice": "少冰",
-      "content": "123",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702351071642,
-      "id": 29
-    },
-    {
-      "rate": "4.0",
-      "userName": "23",
-      "sugar": "1 分糖",
-      "ice": "半冰",
-      "content": "123",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702351091421,
-      "id": 30
-    },
-    {
-      "rate": "3.0",
-      "userName": "123123",
-      "sugar": "微糖",
-      "ice": "微冰",
-      "content": "12312",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702351100292,
-      "id": 31
-    },
-    {
-      "rate": "4.0",
-      "userName": "123",
-      "sugar": "微糖",
-      "ice": "少冰",
-      "content": "123",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702351546499,
-      "id": 32
-    },
-    {
-      "rate": "2.0",
-      "userName": "123",
-      "sugar": "少糖",
-      "ice": "溫",
-      "content": "123",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702351853140,
-      "id": 33
-    },
-    {
-      "rate": "5.0",
-      "userName": "test",
-      "sugar": "無糖",
-      "ice": "去冰",
-      "content": "test",
-      "shopId": 5,
-      "drinkId": 21,
-      "date": 1702374049178,
-      "id": 34
-    },
-    {
-      "rate": "5.0",
-      "userName": "13312",
-      "sugar": "半糖",
-      "ice": "微冰",
-      "content": "123123",
-      "shopId": 5,
-      "drinkId": 28,
-      "date": 1702374769336,
-      "id": 35
-    }
-  ]
+  "comments": []
 }
