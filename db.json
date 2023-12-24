@@ -11,7 +11,8 @@
         "l": "700ml"
       },
       "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E5%8F%AF%E4%B8%8D%E5%8F%AF.svg",
-      "rate": "0"
+      "rate": "3.9",
+      "rateNum": 12
     },
     {
       "id": 2,
@@ -24,7 +25,8 @@
         "l": "700ml"
       },
       "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E4%BA%94%E5%8D%81%E5%B5%90.svg",
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
       "id": 3,
@@ -37,7 +39,8 @@
         "cold": "660ml"
       },
       "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E4%B8%80%E6%B2%90%E6%97%A5.svg",
-      "rate": "0"
+      "rate": "4.3",
+      "rateNum": 4
     },
     {
       "id": 4,
@@ -50,7 +53,8 @@
         "l": "700ml"
       },
       "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E6%B8%85%E5%BF%83%E7%A6%8F%E5%85%A8.svg",
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
       "id": 5,
@@ -63,7 +67,8 @@
         "l": "640ml"
       },
       "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E7%B4%84%E7%BF%B0%E7%B4%85%E8%8C%B6.svg",
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     }
   ],
   "drinks": [
@@ -76,22 +81,21 @@
         "m": "35",
         "l": "40"
       },
-      "special": [],
+      "special": ["店家推薦"],
       "calorie": {
         "m": "180",
         "l": "200"
       },
-      "caffeine": "低於 100mg",
+      "caffeine": "高於 200mg",
       "menuType": "單品茶",
       "type": "純茶",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
+        "base": ["紅茶"],
         "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
       "id": 2,
@@ -107,7 +111,7 @@
         "m": "180",
         "l": "200"
       },
-      "caffeine": "低於 100mg",
+      "caffeine": "101mg 至 200mg",
       "menuType": "單品茶",
       "type": "純茶",
       "ingredient": {
@@ -117,7 +121,8 @@
         "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
       "id": 3,
@@ -133,18 +138,73 @@
         "m": "180",
         "l": "200"
       },
-      "caffeine": "低於 100mg",
+      "caffeine": "高於 200mg",
       "menuType": "單品茶",
       "type": "純茶",
       "ingredient": {
-        "base": ["紅茶"],
+        "base": [
+          "紅茶"
+        ],
         "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
       "id": 4,
+      "shopId": 1,
+      "name": "金蜜紅茶",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307193790（金蜜紅茶）.jpg",
+      "price": {
+        "m": "50",
+        "l": "60"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "232",
+        "l": "282"
+      },
+      "caffeine": "高於 200mg",
+      "menuType": "單品茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": [
+          "紅茶"
+        ],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 5,
+      "shopId": 1,
+      "name": "春芽綠茶",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307194282（春芽綠茶）.jpg",
+      "price": {
+        "m": "35",
+        "l": "40"
+      },
+      "special": [],
+      "calorie": {
+        "m": "160",
+        "l": "180"
+      },
+      "caffeine": "高於 200mg",
+      "menuType": "單品茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 6,
       "shopId": 1,
       "name": "雪花冷露",
       "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193770%EF%BC%88%E9%9B%AA%E8%8A%B1%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
@@ -152,7 +212,7 @@
         "m": "35",
         "l": "40"
       },
-      "special": [],
+      "special": ["無咖啡因"],
       "calorie": {
         "m": "169",
         "l": "233"
@@ -161,19 +221,18 @@
       "menuType": "單品茶",
       "type": "純茶",
       "ingredient": {
-        "base": [
-          "冬瓜茶"
-        ],
+        "base":["冬瓜茶"],
         "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 5,
+      "id": 7,
       "shopId": 1,
-      "name": "春芽冷露",
-      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "name": "熟成冷露",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193778（熟成冷露）.jpg",
       "price": {
         "m": "35",
         "l": "40"
@@ -183,25 +242,572 @@
         "m": "135",
         "l": "211"
       },
-      "caffeine": "低於 100mg",
+      "caffeine": "101mg 至 200mg",
       "menuType": "單品茶",
       "type": "純茶",
       "ingredient": {
-        "base": [
-          "綠茶"
-        ],
-        "mix": [
-          "冬瓜茶"
-        ],
+        "base": ["紅茶", "冬瓜茶"],
+        "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 6,
+      "id": 8,
+      "shopId": 1,
+      "name": "春芽冷露",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "price": {
+        "m": "35",
+        "l": "40"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "135",
+        "l": "211"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "單品茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["綠茶", "冬瓜茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 9,
+      "shopId": 1,
+      "name": "熟成檸果",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193839（熟成檸果）.jpg",
+      "price": {
+        "m": "60",
+        "l": "70"
+      },
+      "special": ["店家推薦", "僅限冷飲"],
+      "calorie": {
+        "m": "168",
+        "l": "226"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "調茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["檸檬汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 10,
+      "shopId": 1,
+      "name": "冷露檸果",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2022/09/202307193834（冷露檸果）.jpg",
+      "price": {
+        "m": "60",
+        "l": "70"
+      },
+      "special": ["僅限冷飲", "無咖啡因"],
+      "calorie": {
+        "m": "190",
+        "l": "261"
+      },
+      "caffeine": false,
+      "menuType": "調茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["冬瓜茶"],
+        "mix": ["檸檬汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 11,
+      "shopId": 1,
+      "name": "胭脂多多",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/10/202307193830（胭脂多多）.jpg",
+      "price": {
+        "m": "50",
+        "l": "60"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": "355",
+        "l": "453"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "調茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["養樂多"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 12,
+      "shopId": 1,
+      "name": "金蜜檸果",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/10/202307193830（胭脂多多）.jpg",
+      "price": {
+        "m": "50",
+        "l": "60"
+      },
+      "special": ["店家推薦", "僅限冷飲"],
+      "calorie": {
+        "m": "232",
+        "l": "282"
+      },
+      "caffeine": false,
+      "menuType": "調茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["檸檬汁"],
+        "mix": ["蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 13,
+      "shopId": 1,
+      "name": "金檸熟成",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307193874（金檸紅茶）.jpg",
+      "price": {
+        "m": "60",
+        "l": "70"
+      },
+      "special": ["店家推薦", "僅限冷飲"],
+      "calorie": {
+        "m": "180",
+        "l": "256"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "調茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["檸檬汁", "蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 14,
+      "shopId": 1,
+      "name": "金檸春芽",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307194293（金蜜春芽）.jpg",
+      "price": {
+        "m": "60",
+        "l": "70"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": "232",
+        "l": "282"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "調茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["檸檬汁", "蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 15,
+      "shopId": 1,
+      "name": "桑檸熟成",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307193976（桑檸紅茶）.jpg",
+      "price": {
+        "m": "60",
+        "l": "70"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "200",
+        "l": "260"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "調茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["檸檬汁", "桑葚", "桑葚醬", "莓果醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 16,
+      "shopId": 1,
+      "name": "柚果紅茶",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307193954（柚果紅茶）.jpg",
+      "price": {
+        "m": "60",
+        "l": "70"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "241",
+        "l": "312"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "調茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["文旦柚", "莓果醬", "檸檬片"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 17,
+      "shopId": 1,
+      "name": "橙果紅茶",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307193963橙果紅茶.jpg",
+      "price": {
+        "m": "60",
+        "l": "70"
+      },
+      "special": [],
+      "calorie": {
+        "m": "193",
+        "l": "250"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "調茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["柳丁", "茂谷柑", "莓果醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 18,
+      "shopId": 1,
+      "name": "莓果春芽",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/02/202307194286（莓果綠茶）.jpg",
+      "price": {
+        "m": "60",
+        "l": "70"
+      },
+      "special": [],
+      "calorie": {
+        "m": "157",
+        "l": "214"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "調茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["莓果醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 19,
+      "shopId": 1,
+      "name": "雲蓋熟成",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307194056（雲蓋熟成）.jpg",
+      "price": {
+        "m": "60",
+        "l": "65"
+      },
+      "special": ["店家推薦", "僅限冷飲"],
+      "calorie": {
+        "m": "358",
+        "l": "384"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "雲蓋",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶蓋（鮮奶油）", "玫瑰醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 20,
+      "shopId": 1,
+      "name": "雲蓋麗春",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307194028（雲蓋麗春）.jpg",
+      "price": {
+        "m": "60",
+        "l": "65"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": "358",
+        "l": "384"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "雲蓋",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶蓋（鮮奶油）", "玫瑰醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 21,
+      "shopId": 1,
+      "name": "雲蓋胭脂",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307194039（雲蓋胭脂）.jpg",
+      "price": {
+        "m": "65",
+        "l": "70"
+      },
+      "special": ["店家推薦", "僅限冷飲"],
+      "calorie": {
+        "m": "358",
+        "l": "384"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "雲蓋",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶蓋（鮮奶油）", "玫瑰醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 22,
+      "shopId": 1,
+      "name": "雲蓋春芽",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307194048（雲蓋春芽）.jpg",
+      "price": {
+        "m": "60",
+        "l": "65"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": "358",
+        "l": "384"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "雲蓋",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["奶蓋（鮮奶油）", "玫瑰醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 23,
+      "shopId": 1,
+      "name": "雲蓋歐蕾",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307194165（雲蓋歐蕾）.jpg",
+      "price": {
+        "m": "65",
+        "l": "75"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": "385",
+        "l": "443"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "雲蓋",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶", "奶蓋（鮮奶油）", "玫瑰醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 24,
+      "shopId": 1,
+      "name": "雲蓋黑蜜",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307194171（雲蓋黑蜜）.jpg",
+      "price": {
+        "m": "70",
+        "l": "80"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": "376",
+        "l": "432"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "雲蓋",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶", "黑蜜", "奶蓋（鮮奶油）", "玫瑰醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 25,
+      "shopId": 1,
+      "name": "熟成歐蕾",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307194058（熟成歐蕾）.jpg",
+      "price": {
+        "m": "55",
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": "258",
+        "l": "311"
+      },
+      "caffeine": "高於 200mg",
+      "menuType": "歐蕾",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 26,
+      "shopId": 1,
+      "name": "冷露歐蕾",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307194077（冷露歐蕾）.jpg",
+      "price": {
+        "m": "55",
+        "l": "65"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": "215",
+        "l": "293"
+      },
+      "caffeine": false,
+      "menuType": "歐蕾",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["冬瓜茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 27,
+      "shopId": 1,
+      "name": "白玉歐蕾",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307194187（白玉歐蕾）.jpg",
+      "price": {
+        "m": "60",
+        "l": "70"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "439",
+        "l": "492"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "歐蕾",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶"],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 28,
+      "shopId": 1,
+      "name": "金蜜歐蕾",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307194092（金蜜歐蕾）.jpg",
+      "price": {
+        "m": "60",
+        "l": "70"
+      },
+      "special": [],
+      "calorie": {
+        "m": "224",
+        "l": "333"
+      },
+      "caffeine": "高於 200mg",
+      "menuType": "歐蕾",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶", "蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 29,
+      "shopId": 1,
+      "name": "黑蜜歐蕾",
+      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2023/09/202307194094-1（黑密歐蕾）.jpg",
+      "price": {
+        "m": "60",
+        "l": "70"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "205",
+        "l": "273"
+      },
+      "caffeine": "高於 200mg",
+      "menuType": "歐蕾",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶", "黑蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 30,
       "shopId": 2,
       "name": "茉莉綠茶",
-      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "imageUrl": "",
       "price": {
         "m": "30",
         "l": "35"
@@ -211,201 +817,1622 @@
         "m": "120",
         "l": "171"
       },
-      "caffeine": "低於 200mg",
+      "caffeine": "101mg 至 200mg",
       "menuType": "找好茶",
       "type": "純茶",
       "ingredient": {
-        "base": [
-          "綠茶"
-        ],
+        "base": ["綠茶"],
         "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 7,
+      "id": 31,
       "shopId": 2,
-      "name": "珍珠奶茶",
-      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "name": "阿薩姆紅茶",
+      "imageUrl": "",
       "price": {
-        "m": "40",
+        "m": "30",
+        "l": "35"
+      },
+      "special": [],
+      "calorie": {
+        "m": "120",
+        "l": "171"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找好茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 32,
+      "shopId": 2,
+      "name": "四季春青茶",
+      "imageUrl": "",
+      "price": {
+        "m": "30",
+        "l": "35"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "120",
+        "l": "171"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找好茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["四季春青茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 33,
+      "shopId": 2,
+      "name": "黃金烏龍",
+      "imageUrl": "",
+      "price": {
+        "m": "30",
+        "l": "35"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "120",
+        "l": "171"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找好茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 34,
+      "shopId": 2,
+      "name": "檸檬綠",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
         "l": "55"
       },
       "special": [],
       "calorie": {
-        "m": "480",
-        "l": "678"
+        "m": "155",
+        "l": "219"
       },
-      "caffeine": "低於 200mg",
-      "menuType": "找奶茶",
-      "type": "料多多",
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找好茶",
+      "type": "特調",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "奶精"
-        ],
-        "material": [
-          "小珍珠"
-        ]
+        "base": ["綠茶"],
+        "mix": ["檸檬汁"],
+        "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 8,
+      "id": 35,
       "shopId": 2,
-      "name": "紅茶拿鐵",
-      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "name": "梅の綠",
+      "imageUrl": "",
       "price": {
-        "m": "50",
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "264",
+        "l": "363"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找好茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["梅醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 36,
+      "shopId": 2,
+      "name": "桔子綠",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "154",
+        "l": "217"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找好茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["金桔"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 37,
+      "shopId": 2,
+      "name": "8冰綠",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "193",
+        "l": "276"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找好茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["金桔", "梅醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 38,
+      "shopId": 2,
+      "name": "養樂多綠",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": "230",
+        "l": "318"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找好茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["養樂多"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 39,
+      "shopId": 2,
+      "name": "冰淇淋紅茶",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦", "僅限冷飲"],
+      "calorie": {
+        "m": "298",
+        "l": "439"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找好茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["香草冰淇淋"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 40,
+      "shopId": 2,
+      "name": "旺來紅",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "237",
+        "l": "339"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找好茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鳳梨汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 41,
+      "shopId": 2,
+      "name": "柚子紅",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "234",
+        "l": "328"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找好茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["柚子醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 42,
+      "shopId": 2,
+      "name": "鮮柚綠",
+      "imageUrl": "",
+      "price": {
+        "m": "55",
+        "l": "65"
+      },
+      "special": ["僅限冷飲", "季節限定"],
+      "calorie": {
+        "m": "249",
+        "l": "349"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找好茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["葡萄柚汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 43,
+      "shopId": 2,
+      "name": "四季春珍波椰",
+      "imageUrl": "",
+      "price": {
+        "m": "35",
+        "l": "45"
+      },
+      "special": [],
+      "calorie": {
+        "m": "288",
+        "l": "320"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["四季春青茶"],
+        "mix": [],
+        "material": ["珍珠", "小珍珠", "椰果"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 44,
+      "shopId": 2,
+      "name": "波霸紅",
+      "imageUrl": "",
+      "price": {
+        "m": "35",
+        "l": "45"
+      },
+      "special": [],
+      "calorie": {
+        "m": "320",
+        "l": "472"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": [],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 45,
+      "shopId": 2,
+      "name": "波霸綠",
+      "imageUrl": "",
+      "price": {
+        "m": "35",
+        "l": "45"
+      },
+      "special": [],
+      "calorie": {
+        "m": "320",
+        "l": "472"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": [],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 46,
+      "shopId": 2,
+      "name": "波霸青",
+      "imageUrl": "",
+      "price": {
+        "m": "35",
+        "l": "45"
+      },
+      "special": [],
+      "calorie": {
+        "m": "320",
+        "l": "472"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": [],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 47,
+      "shopId": 2,
+      "name": "波霸烏",
+      "imageUrl": "",
+      "price": {
+        "m": "35",
+        "l": "45"
+      },
+      "special": [],
+      "calorie": {
+        "m": "320",
+        "l": "472"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": [],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 48,
+      "shopId": 2,
+      "name": "波霸奶茶",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "519",
+        "l": "737"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 49,
+      "shopId": 2,
+      "name": "波霸奶綠",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "519",
+        "l": "737"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["奶精"],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 50,
+      "shopId": 2,
+      "name": "波霸烏龍奶茶",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "519",
+        "l": "737"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": ["奶精"],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 51,
+      "shopId": 2,
+      "name": "珍珠紅",
+      "imageUrl": "",
+      "price": {
+        "m": "35",
+        "l": "45"
+      },
+      "special": [],
+      "calorie": {
+        "m": "313",
+        "l": "461"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": [],
+        "material": ["小珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 52,
+      "shopId": 2,
+      "name": "珍珠綠",
+      "imageUrl": "",
+      "price": {
+        "m": "35",
+        "l": "45"
+      },
+      "special": [],
+      "calorie": {
+        "m": "313",
+        "l": "461"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": [],
+        "material": ["小珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 53,
+      "shopId": 2,
+      "name": "珍珠青",
+      "imageUrl": "",
+      "price": {
+        "m": "35",
+        "l": "45"
+      },
+      "special": [],
+      "calorie": {
+        "m": "313",
+        "l": "461"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": [],
+        "material": ["小珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 54,
+      "shopId": 2,
+      "name": "珍珠烏",
+      "imageUrl": "",
+      "price": {
+        "m": "35",
+        "l": "45"
+      },
+      "special": [],
+      "calorie": {
+        "m": "313",
+        "l": "461"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": [],
+        "material": ["小珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 55,
+      "shopId": 2,
+      "name": "珍珠奶茶",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "519",
+        "l": "737"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": ["小珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 56,
+      "shopId": 2,
+      "name": "珍珠奶綠",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "519",
+        "l": "737"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["奶精"],
+        "material": ["小珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 57,
+      "shopId": 2,
+      "name": "椰果奶茶",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "426",
+        "l": "597"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": ["椰果"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 58,
+      "shopId": 2,
+      "name": "布丁奶茶",
+      "imageUrl": "",
+      "price": {
+        "m": "55",
         "l": "65"
       },
       "special": [],
       "calorie": {
-        "m": "235",
-        "l": "334"
+        "m": "405",
+        "l": "627"
       },
-      "caffeine": "低於 200mg",
-      "menuType": "找拿鐵",
-      "type": "奶系列",
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "鮮奶"
-        ],
-        "material": []
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": ["布丁"]
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 9,
+      "id": 59,
       "shopId": 2,
-      "name": "柚子紅",
-      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "name": "布丁奶綠",
+      "imageUrl": "",
       "price": {
-        "m": "40",
-        "l": "55"
+        "m": "55",
+        "l": "65"
       },
       "special": [],
       "calorie": {
-        "m": "214",
-        "l": "301"
+        "m": "405",
+        "l": "627"
       },
-      "caffeine": "低於 200mg",
-      "menuType": "找新鮮",
-      "type": "特調",
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "柚子醬"
-        ],
-        "material": []
+        "base": ["綠茶"],
+        "mix": ["奶精"],
+        "material": ["布丁"]
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 10,
+      "id": 60,
       "shopId": 2,
-      "name": "8 冰茶",
-      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "name": "布丁紅",
+      "imageUrl": "",
       "price": {
-        "m": "40",
+        "m": "45",
         "l": "55"
       },
       "special": [],
       "calorie": {
         "m": "195",
-        "l": "279"
+        "l": "339"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": [],
+        "material": ["布丁"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 61,
+      "shopId": 2,
+      "name": "布丁綠",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "195",
+        "l": "339"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": [],
+        "material": ["布丁"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 62,
+      "shopId": 2,
+      "name": "布丁青",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "195",
+        "l": "339"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": [],
+        "material": ["布丁"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 63,
+      "shopId": 2,
+      "name": "布丁烏",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "195",
+        "l": "339"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找口感",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": [],
+        "material": ["布丁"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 64,
+      "shopId": 2,
+      "name": "奶茶",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "385",
+        "l": "569"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 65,
+      "shopId": 2,
+      "name": "奶綠",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "385",
+        "l": "569"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 66,
+      "shopId": 2,
+      "name": "紅茶瑪奇朵",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "486",
+        "l": "720"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶蓋（鮮奶油）"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 67,
+      "shopId": 2,
+      "name": "烏龍瑪奇朵",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "486",
+        "l": "720"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": ["奶蓋（鮮奶油）"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 68,
+      "shopId": 2,
+      "name": "四季奶青",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "372",
+        "l": "532"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 69,
+      "shopId": 2,
+      "name": "黃金烏龍奶茶",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "319",
+        "l": "436"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "找奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 70,
+      "shopId": 2,
+      "name": "阿華田",
+      "imageUrl": "",
+      "price": {
+        "m": "50",
+        "l": "60"
+      },
+      "special": [],
+      "calorie": {
+        "m": "447",
+        "l": "601"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["阿華田"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 71,
+      "shopId": 2,
+      "name": "可可芭蕾",
+      "imageUrl": "",
+      "price": {
+        "m": "55",
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": "367",
+        "l": "496"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "找奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["巧克力粉"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 72,
+      "shopId": 2,
+      "name": "檸檬汁",
+      "imageUrl": "",
+      "price": {
+        "m": "50",
+        "l": "60"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": "163",
+        "l": "229"
       },
       "caffeine": false,
       "menuType": "找新鮮",
-      "type": "純茶",
+      "type": "果汁",
       "ingredient": {
-        "base": [
-          "金桔汁",
-          "梅醬"
-        ],
-        "mix": [
-          "金桔",
-          "梅子"
-        ],
+        "base": ["飲用水"],
+        "mix": ["檸檬汁"],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 11,
+      "id": 73,
+      "shopId": 2,
+      "name": "金桔檸檬",
+      "imageUrl": "",
+      "price": {
+        "m": "50",
+        "l": "60"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": "163",
+        "l": "230"
+      },
+      "caffeine": false,
+      "menuType": "找新鮮",
+      "type": "果汁",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["檸檬汁", "金桔"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 74,
+      "shopId": 2,
+      "name": "檸檬梅汁",
+      "imageUrl": "",
+      "price": {
+        "m": "55",
+        "l": "65"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": "234",
+        "l": "327"
+      },
+      "caffeine": false,
+      "menuType": "找新鮮",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["檸檬汁", "梅醬", "梅子"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 75,
+      "shopId": 2,
+      "name": "檸檬養樂多",
+      "imageUrl": "",
+      "price": {
+        "m": "60",
+        "l": "75"
+      },
+      "special": ["僅限冷飲", "無咖啡因"],
+      "calorie": {
+        "m": "381",
+        "l": "520"
+      },
+      "caffeine": false,
+      "menuType": "找新鮮",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["檸檬汁", "養樂多"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 76,
+      "shopId": 2,
+      "name": "8冰茶",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦", "無咖啡因"],
+      "calorie": {
+        "m": "193",
+        "l": "276"
+      },
+      "caffeine": false,
+      "menuType": "找新鮮",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["金桔", "梅醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 77,
+      "shopId": 2,
+      "name": "柚子茶",
+      "imageUrl": "",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦", "無咖啡因"],
+      "calorie": {
+        "m": "249",
+        "l": "349"
+      },
+      "caffeine": false,
+      "menuType": "找新鮮",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["柚子醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 78,
+      "shopId": 2,
+      "name": "鮮柚汁",
+      "imageUrl": "",
+      "price": {
+        "m": "55",
+        "l": "65"
+      },
+      "special": ["僅限冷飲","無咖啡因","季節限定"],
+      "calorie": {
+        "m": "163",
+        "l": "233"
+      },
+      "caffeine": false,
+      "menuType": "找新鮮",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["葡萄柚汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 79,
+      "shopId": 2,
+      "name": "葡萄柚多多",
+      "imageUrl": "",
+      "price": {
+        "m": "60",
+        "l": "75"
+      },
+      "special": ["僅限冷飲","無咖啡因","季節限定"],
+      "calorie": {
+        "m": "285",
+        "l": "395"
+      },
+      "caffeine": false,
+      "menuType": "找新鮮",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["葡萄柚汁", "養樂多"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 80,
+      "shopId": 2,
+      "name": "紅茶拿鐵",
+      "imageUrl": "",
+      "price": {
+        "m": "55",
+        "l": "65"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "252",
+        "l": "359"
+      },
+      "caffeine": false,
+      "menuType": "紅茶拿鐵",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 81,
+      "shopId": 2,
+      "name": "綠茶拿鐵",
+      "imageUrl": "",
+      "price": {
+        "m": "55",
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": "252",
+        "l": "359"
+      },
+      "caffeine": false,
+      "menuType": "紅茶拿鐵",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 82,
+      "shopId": 2,
+      "name": "黃金烏龍拿鐵",
+      "imageUrl": "",
+      "price": {
+        "m": "55",
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": "252",
+        "l": "359"
+      },
+      "caffeine": false,
+      "menuType": "紅茶拿鐵",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 83,
+      "shopId": 2,
+      "name": "阿華田拿鐵",
+      "imageUrl": "",
+      "price": {
+        "m": "60",
+        "l": "75"
+      },
+      "special": [],
+      "calorie": {
+        "m": "379",
+        "l": "524"
+      },
+      "caffeine": false,
+      "menuType": "紅茶拿鐵",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["阿華田"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 84,
+      "shopId": 2,
+      "name": "可可芭蕾拿鐵",
+      "imageUrl": "",
+      "price": {
+        "m": "65",
+        "l": "75"
+      },
+      "special": [],
+      "calorie": {
+        "m": "300",
+        "l": "418"
+      },
+      "caffeine": false,
+      "menuType": "紅茶拿鐵",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["巧克力粉"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 85,
       "shopId": 3,
       "name": "竹香翡翠",
-      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "imageUrl": "",
       "price": {
         "m": false,
         "l": "40"
       },
-      "special": [
-        "店家推薦"
-      ],
+      "special": ["店家推薦"],
       "calorie": {
         "m": false,
-        "l": "177.5"
+        "l": "177"
       },
       "caffeine": "55mg",
       "menuType": "原味茶",
       "type": "純茶",
       "ingredient": {
-        "base": [
-          "綠茶"
-        ],
+        "base": ["綠茶"],
         "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 12,
+      "id": 86,
+      "shopId": 3,
+      "name": "招牌紅茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "35"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "177"
+      },
+      "caffeine": "88mg",
+      "menuType": "原味茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 87,
+      "shopId": 3,
+      "name": "炭焙烏龍",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "35"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "177"
+      },
+      "caffeine": "66mg",
+      "menuType": "原味茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 88,
+      "shopId": 3,
+      "name": "油切蕎麥茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "35"
+      },
+      "special": ["推薦無糖"],
+      "calorie": {
+        "m": false,
+        "l": "0"
+      },
+      "caffeine": "15mg",
+      "menuType": "原味茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["蕎麥茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 89,
+      "shopId": 3,
+      "name": "手採高山青",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "35"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "177"
+      },
+      "caffeine": "66mg",
+      "menuType": "原味茶",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 90,
       "shopId": 3,
       "name": "粉粿桂花檸檬",
-      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "imageUrl": "",
       "price": {
         "m": false,
         "l": "60"
       },
-      "special": [
-        "店家推薦",
-        "僅限冷飲",
-        "固定糖冰"
-      ],
+      "special": ["店家推薦", "僅限冷飲", "固定糖冰"],
       "calorie": {
         "m": false,
-        "l": "225.5"
+        "l": "225"
       },
       "caffeine": "微量",
       "menuType": "滋味茶",
       "type": "料多多",
       "ingredient": {
-        "base": [
-          "檸檬汁"
-        ],
-        "mix": [
-          "桂花釀"
-        ],
-        "material": [
-          "粉粿"
-        ]
+        "base": ["飲用水"],
+        "mix": ["桂花釀", "檸檬汁"],
+        "material": ["粉粿"]
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 13,
+      "id": 91,
+      "shopId": 3,
+      "name": "粉粿黑糖檸檬",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "60"
+      },
+      "special": ["店家推薦", "僅限冷飲", "固定糖冰"],
+      "calorie": {
+        "m": false,
+        "l": "274"
+      },
+      "caffeine": "微量",
+      "menuType": "滋味茶",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["黑糖", "檸檬汁"],
+        "material": ["粉粿"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 92,
+      "shopId": 3,
+      "name": "荔枝烏龍",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "55"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "301"
+      },
+      "caffeine": "66mg",
+      "menuType": "滋味茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": ["荔枝蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 93,
+      "shopId": 3,
+      "name": "桂花蕎麥茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "55"
+      },
+      "special": ["無咖啡因", "推薦半糖"],
+      "calorie": {
+        "m": false,
+        "l": "127"
+      },
+      "caffeine": false,
+      "menuType": "滋味茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["蕎麥茶"],
+        "mix": ["桂花釀"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 94,
+      "shopId": 3,
+      "name": "柚子烏龍",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": ["固定微冰"],
+      "calorie": {
+        "m": false,
+        "l": "397"
+      },
+      "caffeine": "66mg",
+      "menuType": "滋味茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": ["柚子醬"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 95,
       "shopId": 3,
       "name": "梅果招牌紅",
-      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "imageUrl": "",
       "price": {
         "m": false,
         "l": "55"
@@ -419,21 +2446,218 @@
       "menuType": "風味茶",
       "type": "特調",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "梅果醬"
-        ],
+        "base": ["紅茶"],
+        "mix": ["梅醬"],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 14,
+      "id": 96,
+      "shopId": 3,
+      "name": "荔枝蘆薈",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "60"
+      },
+      "special": ["僅限冷飲", "固定糖冰"],
+      "calorie": {
+        "m": false,
+        "l": "310"
+      },
+      "caffeine": "66mg",
+      "menuType": "風味茶",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": ["荔枝蜜"],
+        "material": ["蘆薈"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 97,
+      "shopId": 3,
+      "name": "鮮葡萄柚青茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "218"
+      },
+      "caffeine": "30mg",
+      "menuType": "風味茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": ["葡萄柚汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 98,
+      "shopId": 3,
+      "name": "養樂多青茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "55"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "321"
+      },
+      "caffeine": "66mg",
+      "menuType": "風味茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": ["養樂多"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 99,
+      "shopId": 3,
+      "name": "檸檬高山青",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "60"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "330"
+      },
+      "caffeine": "48mg",
+      "menuType": "風味茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": ["檸檬汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 100,
+      "shopId": 3,
+      "name": "招牌冬瓜紅",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "45"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "318"
+      },
+      "caffeine": "40mg",
+      "menuType": "冬瓜茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["冬瓜茶"],
+        "mix": ["紅茶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 101,
+      "shopId": 3,
+      "name": "冬瓜青茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "45"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "318"
+      },
+      "caffeine": "30mg",
+      "menuType": "冬瓜茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["冬瓜茶"],
+        "mix": ["青茶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 102,
+      "shopId": 3,
+      "name": "冬瓜檸檬",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "50"
+      },
+      "special": ["僅限冷飲", "無咖啡因"],
+      "calorie": {
+        "m": false,
+        "l": "437"
+      },
+      "caffeine": false,
+      "menuType": "冬瓜茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["冬瓜茶"],
+        "mix": ["檸檬汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 103,
+      "shopId": 3,
+      "name": "冬瓜仙草蜜",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "50"
+      },
+      "special": ["僅限冷飲", "無咖啡因", "固定微冰"],
+      "calorie": {
+        "m": false,
+        "l": "245"
+      },
+      "caffeine": false,
+      "menuType": "冬瓜茶",
+      "type": "特調",
+      "ingredient": {
+        "base": ["冬瓜茶"],
+        "mix": ["仙草蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 104,
       "shopId": 3,
       "name": "招牌紅奶茶",
-      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "imageUrl": "",
       "price": {
         "m": false,
         "l": "50"
@@ -441,54 +2665,371 @@
       "special": [],
       "calorie": {
         "m": false,
-        "l": "428.3"
+        "l": "428"
       },
       "caffeine": "88mg",
       "menuType": "香醇奶茶",
       "type": "奶系列",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "奶精"
-        ],
+        "base": ["紅茶"],
+        "mix": ["奶精"],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 15,
+      "id": 105,
       "shopId": 3,
-      "name": "奶蓋烏龍茶",
-      "imageUrl": "https://www.kebuke.com/wp-content/uploads/2020/12/202307193785%EF%BC%88%E6%98%A5%E8%8A%BD%E5%86%B7%E9%9C%B2%EF%BC%89.jpg",
+      "name": "粉粿黑糖奶茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "60"
+      },
+      "special": ["店家推薦", "僅限冷飲", "固定糖冰"],
+      "calorie": {
+        "m": false,
+        "l": "411"
+      },
+      "caffeine": "44mg",
+      "menuType": "香醇奶茶",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精", "黑糖"],
+        "material": ["粉粿"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 106,
+      "shopId": 3,
+      "name": "黃金蕎麥奶茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "50"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": false,
+        "l": "448"
+      },
+      "caffeine": false,
+      "menuType": "香醇奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["蕎麥茶"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 107,
+      "shopId": 3,
+      "name": "逮丸奶茶",
+      "imageUrl": "",
       "price": {
         "m": false,
         "l": "65"
       },
-      "special": [
-        "僅限冷飲"
-      ],
+      "special": ["店家推薦"],
       "calorie": {
         "m": false,
-        "l": "324.2"
+        "l": "620"
+      },
+      "caffeine": "66mg",
+      "menuType": "香醇奶茶",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["奶精"],
+        "material": ["草仔粿"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 108,
+      "shopId": 3,
+      "name": "極黑芝麻奶茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "576"
+      },
+      "caffeine": "66mg",
+      "menuType": "香醇奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": ["奶精", "黑芝麻粉"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 109,
+      "shopId": 3,
+      "name": "竹香翡翠奶茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "50"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "410"
+      },
+      "caffeine": "55mg",
+      "menuType": "香醇奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 110,
+      "shopId": 3,
+      "name": "奶蓋招牌紅",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": ["店家推薦", "僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "324"
+      },
+      "caffeine": "88mg",
+      "menuType": "芝士奶蓋",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶蓋（鮮奶油）"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 111,
+      "shopId": 3,
+      "name": "奶蓋竹香茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": ["店家推薦", "僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "324"
       },
       "caffeine": "66mg",
       "menuType": "芝士奶蓋",
       "type": "奶系列",
       "ingredient": {
-        "base": [
-          "烏龍茶"
-        ],
-        "mix": [],
-        "material": [
-          "奶蓋"
-        ]
+        "base": ["綠茶"],
+        "mix": ["奶蓋（鮮奶油）"],
+        "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 16,
+      "id": 112,
+      "shopId": 3,
+      "name": "奶蓋烏龍茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "324"
+      },
+      "caffeine": "66mg",
+      "menuType": "芝士奶蓋",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": ["奶蓋（鮮奶油）"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 113,
+      "shopId": 3,
+      "name": "奶蓋蕎麥茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": ["僅限冷飲", "無咖啡因", "推薦無糖"],
+      "calorie": {
+        "m": false,
+        "l": "324"
+      },
+      "caffeine": false,
+      "menuType": "芝士奶蓋",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["蕎麥茶"],
+        "mix": ["奶蓋（鮮奶油）"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 114,
+      "shopId": 3,
+      "name": "招牌紅拿鐵",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "70"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "298"
+      },
+      "caffeine": "120mg",
+      "menuType": "鮮奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 115,
+      "shopId": 3,
+      "name": "烏龍拿鐵",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "70"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "298"
+      },
+      "caffeine": "90mg",
+      "menuType": "鮮奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["烏龍茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 116,
+      "shopId": 3,
+      "name": "黃金蕎麥拿鐵",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "70"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": false,
+        "l": "298"
+      },
+      "caffeine": false,
+      "menuType": "鮮奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["蕎麥茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 117,
+      "shopId": 3,
+      "name": "竹香翡翠拿鐵",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "70"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": false,
+        "l": "298"
+      },
+      "caffeine": "66mg",
+      "menuType": "鮮奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 118,
+      "shopId": 3,
+      "name": "極黑芝麻拿鐵",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "80"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "482"
+      },
+      "caffeine": "66mg",
+      "menuType": "鮮奶茶",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": ["鮮奶", "黑芝麻粉"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 119,
       "shopId": 4,
       "name": "烏龍綠茶",
       "imageUrl": "https://www.chingshin.tw/upload/product/2311301405060000002.jpg",
@@ -496,28 +3037,274 @@
         "m": "30",
         "l": "35"
       },
-      "special": [
-        "店家推薦"
-      ],
+      "special": ["店家推薦"],
       "calorie": {
         "m": "149",
         "l": "226"
       },
-      "caffeine": "低於 100mg",
-      "menuType": "茗茶系列",
+      "caffeine": "100mg 以下",
+      "menuType": "茗品系列",
       "type": "純茶",
       "ingredient": {
-        "base": [
-          "烏龍茶",
-          "綠茶"
-        ],
+        "base": ["烏龍綠茶"],
         "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 17,
+      "id": 120,
+      "shopId": 4,
+      "name": "特級綠茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301406020000002.jpg",
+      "price": {
+        "m": "30",
+        "l": "35"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "135",
+        "l": "205"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "茗品系列",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 121,
+      "shopId": 4,
+      "name": "錫蘭紅茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301406160000002.jpg",
+      "price": {
+        "m": "30",
+        "l": "35"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "139",
+        "l": "211"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "茗品系列",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 122,
+      "shopId": 4,
+      "name": "極品菁茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301406310000002.jpg",
+      "price": {
+        "m": "30",
+        "l": "35"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "149",
+        "l": "226"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "茗品系列",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 123,
+      "shopId": 4,
+      "name": "原鄉四季",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301406460000002.jpg",
+      "price": {
+        "m": "30",
+        "l": "35"
+      },
+      "special": [],
+      "calorie": {
+        "m": "84",
+        "l": "128"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "茗品系列",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["四季春茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 124,
+      "shopId": 4,
+      "name": "特選普洱",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301407020000002.jpg",
+      "price": {
+        "m": "30",
+        "l": "35"
+      },
+      "special": [],
+      "calorie": {
+        "m": "133",
+        "l": "202"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "茗品系列",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["普洱茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 125,
+      "shopId": 4,
+      "name": "茶凍奶綠",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301409270000002.jpg",
+      "price": {
+        "m": false,
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "665"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "奶茶系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["奶精"],
+        "material": ["茶凍"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 126,
+      "shopId": 4,
+      "name": "珍珠奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301409450000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "475",
+        "l": "720"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "奶茶系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 127,
+      "shopId": 4,
+      "name": "錫蘭奶紅",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301410040000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "431",
+        "l": "654"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "奶茶系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 128,
+      "shopId": 4,
+      "name": "烏龍奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301410190000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "417",
+        "l": "633"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "奶茶系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["烏龍綠茶"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 129,
+      "shopId": 4,
+      "name": "特級奶綠",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301410440000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "409",
+        "l": "620"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "奶茶系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 130,
       "shopId": 4,
       "name": "仙草凍奶茶",
       "imageUrl": "https://www.chingshin.tw/upload/product/2311301410570000002.jpg",
@@ -525,31 +3312,624 @@
         "m": "45",
         "l": "55"
       },
-      "special": [
-        "店家推薦"
-      ],
+      "special": ["店家推薦"],
       "calorie": {
         "m": "309",
         "l": "470"
       },
-      "caffeine": "低於 100mg",
+      "caffeine": "100mg 以下",
       "menuType": "奶茶系列",
       "type": "料多多",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "奶精"
-        ],
-        "material": [
-          "仙草凍"
-        ]
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": ["仙草"]
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 18,
+      "id": 131,
+      "shopId": 4,
+      "name": "椰果奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301411150000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "354",
+        "l": "538"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "奶茶系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": ["椰果"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 132,
+      "shopId": 4,
+      "name": "布丁奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301411380000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "355",
+        "l": "613"
+      },
+      "caffeine": "未提供",
+      "menuType": "奶茶系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": ["布丁"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 133,
+      "shopId": 4,
+      "name": "暗黑水晶奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301411550000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "389",
+        "l": "665"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "奶茶系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": ["咖啡凍"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 134,
+      "shopId": 4,
+      "name": "粉圓奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301412120000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "445",
+        "l": "674"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "奶茶系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": ["紅麴粉圓"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 135,
+      "shopId": 4,
+      "name": "蜂蜜奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301412290000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "60"
+      },
+      "special": [],
+      "calorie": {
+        "m": "486",
+        "l": "737"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "奶茶系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精", "蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 136,
+      "shopId": 4,
+      "name": "芝麻奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301412430000002.jpg",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "737"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "奶茶系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精", "黑芝麻粉（含花生）"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 137,
+      "shopId": 4,
+      "name": "相思紅豆奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301408070000002.jpg",
+      "price": {
+        "m": "55",
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": "490",
+        "l": "617"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "奶茶系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精"],
+        "material": ["紅豆"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 138,
+      "shopId": 4,
+      "name": "琥珀黑糖奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301409090000002.jpg",
+      "price": {
+        "m": "50",
+        "l": "60"
+      },
+      "special": [],
+      "calorie": {
+        "m": "367",
+        "l": "518"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "奶茶系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精", "黑糖"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 139,
+      "shopId": 4,
+      "name": "茉莉茶凍拿鐵",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301414390000002.jpg",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "367"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "鮮奶 / 拿鐵系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["鮮奶"],
+        "material": ["茶凍"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 140,
+      "shopId": 4,
+      "name": "鮮奶茶（紅茶拿鐵）",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301415060000002.jpg",
+      "price": {
+        "m": "50",
+        "l": "65"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "247",
+        "l": "375"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "鮮奶 / 拿鐵系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶", "蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 141,
+      "shopId": 4,
+      "name": "珍珠鮮奶茶（珍珠紅茶拿鐵）",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301415330000002.jpg",
+      "price": {
+        "m": "50",
+        "l": "65"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "401",
+        "l": "636"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "鮮奶 / 拿鐵系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶", "蜂蜜"],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 142,
+      "shopId": 4,
+      "name": "【隱藏版】珍珠蜂蜜鮮奶普洱",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301415580000002.jpg",
+      "price": {
+        "m": "50",
+        "l": "70"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "356",
+        "l": "541"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "鮮奶 / 拿鐵系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["普洱茶"],
+        "mix": ["鮮奶", "蜂蜜"],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 143,
+      "shopId": 4,
+      "name": "頂級可可拿鐵",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301416150000002.jpg",
+      "price": {
+        "m": "60",
+        "l": "80"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "393",
+        "l": "596"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "鮮奶 / 拿鐵系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["巧克力粉", "鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 144,
+      "shopId": 4,
+      "name": "鮮奶冬瓜",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301416410000002.jpg",
+      "price": {
+        "m": false,
+        "l": "60"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": false,
+        "l": "322"
+      },
+      "caffeine": false,
+      "menuType": "鮮奶 / 拿鐵系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["冬瓜茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 145,
+      "shopId": 4,
+      "name": "珍珠芝麻拿鐵（珍珠芝麻紅茶拿鐵）",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301417550000002.jpg",
+      "price": {
+        "m": false,
+        "l": "70"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": false,
+        "l": "547"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "鮮奶 / 拿鐵系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶", "黑芝麻粉", "蜂蜜"],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 146,
+      "shopId": 4,
+      "name": "雙凍拿鐵（茉莉茶凍仙草凍綠茶拿鐵）",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301414110000002.jpg",
+      "price": {
+        "m": false,
+        "l": "70"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "431"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "鮮奶 / 拿鐵系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["鮮奶"],
+        "material": ["茉莉綠茶凍", "仙草"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 147,
+      "shopId": 4,
+      "name": "相思紅豆鮮奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301413190000002.jpg",
+      "price": {
+        "m": "65",
+        "l": "75"
+      },
+      "special": [],
+      "calorie": {
+        "m": "377",
+        "l": "458"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "鮮奶 / 拿鐵系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶"],
+        "material": ["紅豆"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 148,
+      "shopId": 4,
+      "name": "珍珠琥珀黑糖鮮奶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2311301413370000002.jpg",
+      "price": {
+        "m": "65",
+        "l": "75"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": "427",
+        "l": "732"
+      },
+      "caffeine": false,
+      "menuType": "鮮奶 / 拿鐵系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["鮮奶", "黑糖"],
+        "material": ["珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 149,
+      "shopId": 4,
+      "name": "梅子綠茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011424200000002.jpg",
+      "price": {
+        "m": "40",
+        "l": "50"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "133",
+        "l": "202"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "特調系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["話梅"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 150,
+      "shopId": 4,
+      "name": "蜂蜜烏龍",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011424350000002.jpg",
+      "price": {
+        "m": "40",
+        "l": "50"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "212",
+        "l": "321"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "特調系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["烏龍綠茶"],
+        "mix": ["蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 151,
+      "shopId": 4,
+      "name": "蜂蜜綠茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011424530000002.jpg",
+      "price": {
+        "m": "40",
+        "l": "50"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "198",
+        "l": "300"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "特調系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 152,
+      "shopId": 4,
+      "name": "頂級可可",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011425150000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "60"
+      },
+      "special": [],
+      "calorie": {
+        "m": "356",
+        "l": "540"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "特調系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["巧克力粉", "奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 153,
+      "shopId": 4,
+      "name": "濃情巧克力",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011425300000002.jpg",
+      "price": {
+        "m": "40",
+        "l": "50"
+      },
+      "special": [],
+      "calorie": {
+        "m": "311",
+        "l": "472"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "特調系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["巧克力奶調和粉", "奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 154,
+      "shopId": 4,
+      "name": "蜜茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011425460000002.jpg",
+      "price": {
+        "m": "35",
+        "l": "45"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": "168",
+        "l": "255"
+      },
+      "caffeine": false,
+      "menuType": "特調系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 155,
       "shopId": 4,
       "name": "情人茶",
       "imageUrl": "https://www.chingshin.tw/upload/product/2312011426020000002.jpg",
@@ -562,25 +3942,319 @@
         "m": "127",
         "l": "193"
       },
-      "caffeine": "低於 100mg",
+      "caffeine": "100mg 以下",
       "menuType": "特調系列",
       "type": "特調",
       "ingredient": {
-        "base": [
-          "綠茶"
-        ],
-        "mix": [
-          "檸檬",
-          "話梅"
-        ],
-        "material": [
-          "仙草凍"
-        ]
+        "base": ["綠茶"],
+        "mix": ["話梅", "檸檬汁"],
+        "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 19,
+      "id": 156,
+      "shopId": 4,
+      "name": "咖啡奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011426230000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "60"
+      },
+      "special": [],
+      "calorie": {
+        "m": "240",
+        "l": "364"
+      },
+      "caffeine": "201mg 以上",
+      "menuType": "特調系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["UCC即溶咖啡粉"],
+        "mix": ["奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 157,
+      "shopId": 4,
+      "name": "芋香奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011426380000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": "399",
+        "l": "606"
+      },
+      "caffeine": false,
+      "menuType": "特調系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["芋頭奶調和粉", "奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 158,
+      "shopId": 4,
+      "name": "Red Bull 紅牛能量紅茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011424030000002.jpg",
+      "price": {
+        "m": false,
+        "l": "80"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "154"
+      },
+      "caffeine": "無提供",
+      "menuType": "特調系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["Red Bull 能量飲料", "蘋果醋"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 159,
+      "shopId": 4,
+      "name": "Red Bull 紅牛無糖能量綠茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011421340000002.jpg",
+      "price": {
+        "m": false,
+        "l": "80"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "24"
+      },
+      "caffeine": "無提供",
+      "menuType": "特調系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["Red Bull 能量飲料", "檸檬汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 160,
+      "shopId": 4,
+      "name": "柳橙綠",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011428440000002.jpg",
+      "price": {
+        "m": "50",
+        "l": "65"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "143",
+        "l": "217"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "季節鮮果系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["柳橙原汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 161,
+      "shopId": 4,
+      "name": "鳳梨紅茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011428590000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "207",
+        "l": "314"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "季節鮮果系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["蜜糖金鑽鳳梨"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 162,
+      "shopId": 4,
+      "name": "蜂蜜檸檬",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011429130000002.jpg",
+      "price": {
+        "m": "55",
+        "l": "70"
+      },
+      "special": ["店家推薦", "無咖啡因"],
+      "calorie": {
+        "m": "170",
+        "l": "258"
+      },
+      "caffeine": false,
+      "menuType": "季節鮮果系列",
+      "type": "果汁",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["檸檬汁", "蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 163,
+      "shopId": 4,
+      "name": "蘆薈蜂蜜檸檬",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011429260000002.jpg",
+      "price": {
+        "m": "60",
+        "l": "80"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": "206",
+        "l": "312"
+      },
+      "caffeine": false,
+      "menuType": "季節鮮果系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["檸檬汁", "蜂蜜", "蘆薈"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 164,
+      "shopId": 4,
+      "name": "金桔檸檬",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011429410000002.jpg",
+      "price": {
+        "m": "50",
+        "l": "65"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": "139",
+        "l": "211"
+      },
+      "caffeine": false,
+      "menuType": "季節鮮果系列",
+      "type": "果汁",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["檸檬汁", "金桔原汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 165,
+      "shopId": 4,
+      "name": "桔茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011430380000002.jpg",
+      "price": {
+        "m": "50",
+        "l": "65"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": "133",
+        "l": "202"
+      },
+      "caffeine": false,
+      "menuType": "季節鮮果系列",
+      "type": "果汁",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["金桔原汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 166,
+      "shopId": 4,
+      "name": "檸檬紅茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011429570000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "60"
+      },
+      "special": [],
+      "calorie": {
+        "m": "137",
+        "l": "208"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "季節鮮果系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["檸檬汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 167,
+      "shopId": 4,
+      "name": "檸檬綠茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312210902010000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "60"
+      },
+      "special": [],
+      "calorie": {
+        "m": "133",
+        "l": "202"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "季節鮮果系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["檸檬汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 168,
       "shopId": 4,
       "name": "檸檬汁",
       "imageUrl": "https://www.chingshin.tw/upload/product/2312011430240000002.jpg",
@@ -588,25 +4262,449 @@
         "m": "45",
         "l": "60"
       },
-      "special": [],
+      "special": ["無咖啡因"],
       "calorie": {
         "m": "135",
         "l": "205"
       },
       "caffeine": false,
       "menuType": "季節鮮果系列",
+      "type": "果汁",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["檸檬汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 169,
+      "shopId": 4,
+      "name": "甘蔗四季",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011428230000002.jpg",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "352"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "季節鮮果系列",
       "type": "特調",
       "ingredient": {
-        "base": [
-          "檸檬汁"
-        ],
+        "base": ["四季春茶"],
+        "mix": ["甘蔗原汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 170,
+      "shopId": 4,
+      "name": "甘蔗金桔",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011427550000002.jpg",
+      "price": {
+        "m": false,
+        "l": "75"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": false,
+        "l": "351"
+      },
+      "caffeine": false,
+      "menuType": "季節鮮果系列",
+      "type": "果汁",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["甘蔗原汁", "金桔原汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 171,
+      "shopId": 4,
+      "name": "甘蔗菁茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011428080000002.jpg",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "352"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "季節鮮果系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": ["甘蔗原汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 172,
+      "shopId": 4,
+      "name": "蜜桃凍紅茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011446090000002.jpg",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "326"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "季節鮮果系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["水蜜桃醬"],
+        "material": ["茉莉綠茶凍"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 173,
+      "shopId": 4,
+      "name": "冬瓜茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011431300000002.jpg",
+      "price": {
+        "m": false,
+        "l": "35"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": false,
+        "l": "261"
+      },
+      "caffeine": false,
+      "menuType": "冬瓜 / 百香果系列",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["冬瓜露"],
         "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 20,
+      "id": 174,
+      "shopId": 4,
+      "name": "冬瓜菁茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011431460000002.jpg",
+      "price": {
+        "m": false,
+        "l": "40"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": false,
+        "l": "291"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "冬瓜 / 百香果系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["青茶"],
+        "mix": ["冬瓜露"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 175,
+      "shopId": 4,
+      "name": "冬瓜檸檬",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011431590000002.jpg",
+      "price": {
+        "m": false,
+        "l": "55"
+      },
+      "special": ["店家推薦", "無咖啡因"],
+      "calorie": {
+        "m": false,
+        "l": "261"
+      },
+      "caffeine": false,
+      "menuType": "冬瓜 / 百香果系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["冬瓜露"],
+        "mix": ["檸檬汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 176,
+      "shopId": 4,
+      "name": "百香果綠茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011431160000002.jpg",
+      "price": {
+        "m": false,
+        "l": "60"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "399"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "冬瓜 / 百香果系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["百香果糖漿"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 177,
+      "shopId": 4,
+      "name": "雙Ｑ百香果綠茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011430510000002.jpg",
+      "price": {
+        "m": false,
+        "l": "70"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "500"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "冬瓜 / 百香果系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["百香果糖漿"],
+        "material": ["椰果", "珍珠"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 178,
+      "shopId": 4,
+      "name": "優多百香果綠茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011432110000002.jpg",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "446"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "優多系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["百香果糖漿", "養樂多"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 179,
+      "shopId": 4,
+      "name": "優多柳橙",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011432430000002.jpg",
+      "price": {
+        "m": false,
+        "l": "80"
+      },
+      "special": ["店家推薦", "無咖啡因"],
+      "calorie": {
+        "m": false,
+        "l": "339"
+      },
+      "caffeine": false,
+      "menuType": "優多系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["柳橙原汁", "養樂多"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 180,
+      "shopId": 4,
+      "name": "優多綠茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011432560000002.jpg",
+      "price": {
+        "m": false,
+        "l": "50"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": false,
+        "l": "330"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "優多系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["養樂多"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 181,
+      "shopId": 4,
+      "name": "優多檸檬",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011433230000002.jpg",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": false,
+        "l": "333"
+      },
+      "caffeine": false,
+      "menuType": "優多系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["檸檬汁", "養樂多"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 182,
+      "shopId": 4,
+      "name": "蘆薈優多綠茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011433100000002.jpg",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "368"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "優多系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["綠茶"],
+        "mix": ["養樂多"],
+        "material": ["蘆薈"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 183,
+      "shopId": 4,
+      "name": "冰淇淋紅茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011434210000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "351",
+        "l": "532"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "冰淇淋系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["香草冰淇淋"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 184,
+      "shopId": 4,
+      "name": "冰淇淋奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011434350000002.jpg",
+      "price": {
+        "m": "50",
+        "l": "70"
+      },
+      "special": [],
+      "calorie": {
+        "m": "494",
+        "l": "750"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "冰淇淋系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶精", "香草冰淇淋"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 185,
+      "shopId": 4,
+      "name": "【紅茶三兄弟】珍珠冰淇淋布丁紅茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011434500000002.jpg",
+      "price": {
+        "m": false,
+        "l": "70"
+      },
+      "special": [],
+      "calorie": {
+        "m": false,
+        "l": "648"
+      },
+      "caffeine": "101mg 至 200mg",
+      "menuType": "冰淇淋系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["香草冰淇淋"],
+        "material": ["珍珠", "布丁"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 186,
       "shopId": 4,
       "name": "蘋果醋",
       "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
@@ -614,56 +4712,277 @@
         "m": "40",
         "l": "50"
       },
-      "special": [],
+      "special": ["無咖啡因"],
       "calorie": {
-        "m": "135",
-        "l": "205"
+        "m": "247",
+        "l": "374"
       },
       "caffeine": false,
       "menuType": "果醋系列",
       "type": "特調",
       "ingredient": {
-        "base": [
-          "蘋果醋"
-        ],
-        "mix": [],
+        "base": ["飲用水"],
+        "mix": ["蘋果醋"],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 21,
+      "id": 187,
+      "shopId": 4,
+      "name": "蘋果醋紅茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435270000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": [],
+      "calorie": {
+        "m": "255",
+        "l": "386"
+      },
+      "caffeine": "100mg 以下",
+      "menuType": "果醋系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["蘋果醋"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 188,
+      "shopId": 4,
+      "name": "蜂蜜蘋果醋",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435430000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "60"
+      },
+      "special": ["店家推薦", "無咖啡因"],
+      "calorie": {
+        "m": "325",
+        "l": "493"
+      },
+      "caffeine": false,
+      "menuType": "果醋系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["蘋果醋", "蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 189,
+      "shopId": 4,
+      "name": "藍莓醋",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011436260000002.jpg",
+      "price": {
+        "m": "45",
+        "l": "55"
+      },
+      "special": ["店家推薦", "無咖啡因"],
+      "calorie": {
+        "m": "235",
+        "l": "356"
+      },
+      "caffeine": false,
+      "menuType": "果醋系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["藍莓醋"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 190,
+      "shopId": 4,
+      "name": "蘆薈藍莓醋",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011442230000002.jpg",
+      "price": {
+        "m": false,
+        "l": "70"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": false,
+        "l": "484"
+      },
+      "caffeine": false,
+      "menuType": "果醋系列",
+      "type": "料多多",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["藍莓醋"],
+        "material": ["蘆薈"]
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 191,
+      "shopId": 4,
+      "name": "蜂蜜藍莓醋",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011442530000002.jpg",
+      "price": {
+        "m": "50",
+        "l": "65"
+      },
+      "special": ["無咖啡因"],
+      "calorie": {
+        "m": "317",
+        "l": "481"
+      },
+      "caffeine": false,
+      "menuType": "果醋系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["藍莓醋", "蜂蜜"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 192,
+      "shopId": 4,
+      "name": "桂圓茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011444440000002.jpg",
+      "price": {
+        "m": "40",
+        "l": "50"
+      },
+      "special": ["無咖啡因", "僅限熱飲"],
+      "calorie": {
+        "m": "217",
+        "l": "290"
+      },
+      "caffeine": false,
+      "menuType": "冬季熱飲系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["桂圓糖漿"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 193,
+      "shopId": 4,
+      "name": "桂圓鮮奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011444300000002.jpg",
+      "price": {
+        "m": "60",
+        "l": "75"
+      },
+      "special": ["店家推薦", "無咖啡因", "僅限熱飲"],
+      "calorie": {
+        "m": "309",
+        "l": "405"
+      },
+      "caffeine": false,
+      "menuType":"冬季熱飲系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["桂圓糖漿", "鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 194,
+      "shopId": 4,
+      "name": "薑薑好茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011444180000002.jpg",
+      "price": {
+        "m": "40",
+        "l": "50"
+      },
+      "special": ["無咖啡因", "僅限熱飲"],
+      "calorie": {
+        "m": "197",
+        "l": "273"
+      },
+      "caffeine": false,
+      "menuType":"冬季熱飲系列",
+      "type": "特調",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["薑母風味糖漿"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 195,
+      "shopId": 4,
+      "name": "薑薑奶茶",
+      "imageUrl": "https://www.chingshin.tw/upload/product/2312011444030000002.jpg",
+      "price": {
+        "m": "50",
+        "l": "65"
+      },
+      "special": ["無咖啡因", "僅限熱飲"],
+      "calorie": {
+        "m": "389",
+        "l": "515"
+      },
+      "caffeine": false,
+      "menuType":"冬季熱飲系列",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["飲用水"],
+        "mix": ["薑母風味糖漿", "奶精"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 196,
       "shopId": 5,
       "name": "曼非紅茶",
-      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "imageUrl": "",
       "price": {
         "m": "35",
-        "l": "50"
+        "l": "40"
       },
-      "special": [
-        "店家推薦"
-      ],
+      "special": ["店家推薦"],
       "calorie": {
         "m": "138",
         "l": "156"
       },
       "caffeine": "未提供",
-      "menuType": "紅茶經典",
+      "menuType":"紅茶經典",
       "type": "純茶",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
+        "base": ["紅茶"],
         "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 22,
+      "id": 197,
       "shopId": 5,
       "name": "茶中香檳",
-      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "imageUrl": "",
       "price": {
         "m": "40",
         "l": "45"
@@ -674,250 +4993,390 @@
         "l": "147"
       },
       "caffeine": "未提供",
-      "menuType": "紅茶經典",
+      "menuType":"紅茶經典",
       "type": "純茶",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
+        "base": ["紅茶"],
         "mix": [],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 23,
+      "id": 198,
+      "shopId": 5,
+      "name": "錫金紅茶",
+      "imageUrl": "",
+      "price": {
+        "m": "50",
+        "l": false
+      },
+      "special": ["店家推薦", "僅限冷飲", "固定無糖"],
+      "calorie": {
+        "m": "0",
+        "l": false
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶經典",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 199,
+      "shopId": 5,
+      "name": "灼香紅茶",
+      "imageUrl": "",
+      "price": {
+        "m": "55",
+        "l": false
+      },
+      "special": ["僅限冷飲", "固定無糖"],
+      "calorie": {
+        "m": "0",
+        "l": false
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶經典",
+      "type": "純茶",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": [],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 200,
       "shopId": 5,
       "name": "雨果那堤",
-      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "imageUrl": "",
       "price": {
         "m": "55",
         "l": "60"
       },
-      "special": [],
+      "special": ["店家推薦"],
       "calorie": {
         "m": "233",
         "l": "287"
       },
       "caffeine": "未提供",
-      "menuType": "紅茶那堤",
+      "menuType":"紅茶那堤",
       "type": "奶系列",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "鮮奶"
-        ],
+        "base": ["紅茶"],
+        "mix": ["鮮奶"],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 24,
+      "id": 201,
+      "shopId": 5,
+      "name": "曼非那堤",
+      "imageUrl": "",
+      "price": {
+        "m": "55",
+        "l": "60"
+      },
+      "special": ["店家推薦"],
+      "calorie": {
+        "m": "224",
+        "l": "275"
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶那堤",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 202,
+      "shopId": 5,
+      "name": "煮濃那堤",
+      "imageUrl": "",
+      "price": {
+        "m": "65",
+        "l": false
+      },
+      "special": ["僅限冷飲", "固定少冰"],
+      "calorie": {
+        "m": "279",
+        "l": false
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶那堤",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 203,
+      "shopId": 5,
+      "name": "烏瓦那堤",
+      "imageUrl": "",
+      "price": {
+        "m": "60",
+        "l": "65"
+      },
+      "special": ["期間限定"],
+      "calorie": {
+        "m": "195",
+        "l": "239"
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶那堤",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["鮮奶"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 204,
       "shopId": 5,
       "name": "生乳紅茶",
-      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "imageUrl": "",
       "price": {
-        "m": "55",
+        "m": "60",
         "l": false
       },
-      "special": [
-        "僅限冷飲"
-      ],
+      "special": ["固定少冰"],
+      "calorie": {
+        "m": "334",
+        "l": false
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶那堤",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["奶蓋（鮮奶油）"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 205,
+      "shopId": 5,
+      "name": "生乳灼香紅茶",
+      "imageUrl": "",
+      "price": {
+        "m": "65",
+        "l": false
+      },
+      "special": ["店家推薦", "固定少冰"],
       "calorie": {
         "m": "352",
         "l": false
       },
       "caffeine": "未提供",
-      "menuType": "生乳系列",
+      "menuType":"生乳系列",
       "type": "奶系列",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "鮮奶油"
-        ],
+        "base": ["紅茶"],
+        "mix": ["奶蓋（鮮奶油）"],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
     },
     {
-      "id": 25,
+      "id": 206,
       "shopId": 5,
       "name": "玉釀紅茶",
-      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
+      "imageUrl": "",
       "price": {
-        "m": "60",
-        "l": false
-      },
-      "special": [
-        "店家推薦",
-        "僅限冷飲"
-      ],
-      "calorie": {
-        "m": "138",
-        "l": false
-      },
-      "caffeine": "未提供",
-      "menuType": "紅茶特調",
-      "type": "特調",
-      "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "荔枝汁"
-        ],
-        "material": []
-      },
-      "rate": "0"
-    },
-    {
-      "id": 26,
-      "shopId": 5,
-      "name": "曼非紅茶1",
-      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
-      "price": {
-        "m": "35",
-        "l": "50"
-      },
-      "special": [
-        "店家推薦"
-      ],
-      "calorie": {
-        "m": "138",
-        "l": "156"
-      },
-      "caffeine": "未提供",
-      "menuType": "紅茶經典",
-      "type": "純茶",
-      "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [],
-        "material": []
-      },
-      "rate": "0"
-    },
-    {
-      "id": 27,
-      "shopId": 5,
-      "name": "茶中香檳1",
-      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
-      "price": {
-        "m": "40",
-        "l": "45"
-      },
-      "special": [],
-      "calorie": {
-        "m": "129",
-        "l": "147"
-      },
-      "caffeine": "未提供",
-      "menuType": "紅茶經典",
-      "type": "純茶",
-      "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [],
-        "material": []
-      },
-      "rate": "0"
-    },
-    {
-      "id": 28,
-      "shopId": 5,
-      "name": "雨果那堤1",
-      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
-      "price": {
-        "m": "55",
+        "m": false,
         "l": "60"
       },
-      "special": [],
+      "special": ["店家推薦", "僅限冷飲","固定三分糖"],
       "calorie": {
-        "m": "233",
-        "l": "287"
+        "m": false,
+        "l": "138"
       },
       "caffeine": "未提供",
-      "menuType": "紅茶那堤",
-      "type": "奶系列",
-      "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "鮮奶"
-        ],
-        "material": []
-      },
-      "rate": "0"
-    },
-    {
-      "id": 29,
-      "shopId": 5,
-      "name": "生乳紅茶1",
-      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
-      "price": {
-        "m": "55",
-        "l": false
-      },
-      "special": [
-        "僅限冷飲"
-      ],
-      "calorie": {
-        "m": "352",
-        "l": false
-      },
-      "caffeine": "未提供",
-      "menuType": "生乳系列",
-      "type": "奶系列",
-      "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "鮮奶油"
-        ],
-        "material": []
-      },
-      "rate": "0"
-    },
-    {
-      "id": 30,
-      "shopId": 5,
-      "name": "玉釀紅茶1",
-      "imageUrl": "https://www.chingshin.tw/upload/product/2312011435110000002.jpg",
-      "price": {
-        "m": "60",
-        "l": false
-      },
-      "special": [
-        "店家推薦",
-        "僅限冷飲",
-        "無咖啡因",
-        "僅限熱飲"
-      ],
-      "calorie": {
-        "m": "138",
-        "l": false
-      },
-      "caffeine": "未提供",
-      "menuType": "紅茶特調",
+      "menuType":"紅茶特調",
       "type": "特調",
       "ingredient": {
-        "base": [
-          "紅茶"
-        ],
-        "mix": [
-          "荔枝汁"
-        ],
+        "base": ["紅茶"],
+        "mix": ["荔枝"],
         "material": []
       },
-      "rate": "0"
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 207,
+      "shopId": 5,
+      "name": "東方檸檬茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "60"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "未提供"
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶特調",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["檸檬汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 208,
+      "shopId": 5,
+      "name": "英式檸檬茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "60"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "未提供"
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶特調",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["檸檬汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 209,
+      "shopId": 5,
+      "name": "伯爵葡萄柚",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "55"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "未提供"
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶特調",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["葡萄柚汁"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 210,
+      "shopId": 5,
+      "name": "伯爵可爾必思",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "55"
+      },
+      "special": ["店家推薦", "僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "未提供"
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶特調",
+      "type": "特調",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["可爾必思"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 211,
+      "shopId": 5,
+      "name": "冰淇淋紅茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": ["僅限冷飲"],
+      "calorie": {
+        "m": false,
+        "l": "333"
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶特調",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["牛奶冰淇淋"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
+    },
+    {
+      "id": 211,
+      "shopId": 5,
+      "name": "冰淇淋紅茶",
+      "imageUrl": "",
+      "price": {
+        "m": false,
+        "l": "65"
+      },
+      "special": ["僅限冷飲","固定無糖"],
+      "calorie": {
+        "m": false,
+        "l": "333"
+      },
+      "caffeine": "未提供",
+      "menuType":"紅茶特調",
+      "type": "奶系列",
+      "ingredient": {
+        "base": ["紅茶"],
+        "mix": ["牛奶冰淇淋"],
+        "material": []
+      },
+      "rate": "0",
+      "rateNum": 0
     }
   ],
   "comments": []
