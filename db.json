@@ -11,8 +11,8 @@
         "l": "700ml"
       },
       "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E5%8F%AF%E4%B8%8D%E5%8F%AF.svg",
-      "rate": "3.9",
-      "rateNum": 12
+      "rate": "0",
+      "rateNum": 0
     },
     {
       "id": 2,
@@ -39,8 +39,8 @@
         "cold": "660ml"
       },
       "imageUrl": "https://raw.githubusercontent.com/minnnn7716/whatToDrink/9fe08f1f98a7d6162b54f9c21345e7353bc46f77/src/assets/images/logo_%E4%B8%80%E6%B2%90%E6%97%A5.svg",
-      "rate": "4.3",
-      "rateNum": 4
+      "rate": "0",
+      "rateNum": 0
     },
     {
       "id": 4,
